@@ -2,14 +2,16 @@
   "name": "lds",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "serverLDS.js",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "node serverLDS.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-opcua": "^2.6.4"
+    "node-opcua": "^2.6.4",
+    "vorpal": "^1.12.0",
+    "vorpal-repl": "^1.1.8"
   }
 }
