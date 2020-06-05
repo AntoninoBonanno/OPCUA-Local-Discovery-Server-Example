@@ -24,9 +24,9 @@ server.once("serverRegistered", function () {
     console.log("server serverRegistered");
     //callback();
 });
-server.start(function () {
-});
-/*
+/*server.start(function () {
+});*/
+
 server.initialize(() => {
 
     function new_address_space(server) {
@@ -69,4 +69,4 @@ server.initialize(() => {
         const endpointUrl = server.endpoints[0].endpointDescriptions()[0].endpointUrl;
         console.log("The primary server endpoint url is ", endpointUrl);
     });
-});*/
+});
