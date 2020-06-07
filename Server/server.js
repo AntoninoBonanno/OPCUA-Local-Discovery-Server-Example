@@ -8,9 +8,17 @@ const opcua = require("node-opcua");
 const OPCUAServer = opcua.OPCUAServer;
 
 const server = new OPCUAServer({
+    //resourcePath: "/UA/MyLittleServer", // this path will be added to the endpoint resource name
+    applicationName: "SimpleServer",
+
     port: 1435,
     registerServerMethod: opcua.RegisterServerMethod.LDS,
-    discoveryServerEndpointUrl: "opc.tcp://MARIO-PC:4334",
+    discoveryServerEndpointUrl: "opc.tcp://NIRGONS-PC:4334",
+    /*buildInfo: {
+        productName: "SimpleServer",
+        buildNumber: "7658",
+        buildDate: new Date(2020, 6, 6)
+    }*/
     /*serverCertificateManager: new opcua2.OPCUACertificateManager({ 
         automaticallyAcceptUnknownCertificate: true,
         rootFolder: path.join(__dirname, "./certs")
@@ -47,7 +55,7 @@ server.initialize(() => {
 
         namespace.addVariable({
             componentOf: device,
-            nodeId: "s=free_memory", // a string nodeID
+            nodeId: "i=1", // a string nodeID
             browseName: "FreeMemory",
             dataType: "Double",
             value: {
