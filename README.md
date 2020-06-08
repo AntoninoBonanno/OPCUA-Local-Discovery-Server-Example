@@ -39,7 +39,7 @@ The server is built in node-js, registers to the LDS and exposes a variable for 
     
     Or  
     - Import project on eclipse (Eclipse -> Import -> Existing Projects into Workspace)
-    - Import [UA-Java-Legacy](https://github.com/OPCFoundation/UA-Java-Legacy) lo stack into Workspace
+    - Import [UA-Java-Legacy](https://github.com/OPCFoundation/UA-Java-Legacy) stack into Workspace
     - Right click on the project "ClientOPCUA_LDS" and choose Properties.
     - Select Java Build Path -> Projects -> Add and select the stack project (opc-ua-stack)
 
