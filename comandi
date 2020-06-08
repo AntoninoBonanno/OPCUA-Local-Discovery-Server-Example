@@ -1,1 +1,0 @@
- .\Opc.Ua.CertificateGenerator.exe -cmd issue -sp . -an MyApp -au urn:Myhpany -dn MyHost -pw MyCertFilePassword -pem true
