@@ -16,20 +16,29 @@ The server is built in node-js, registers to the LDS and exposes a variable for 
 ## Start project
 
 * LDS
-    `cd LDS`
-    `npm install`
-    `npm run dev`
+
+    `> cd LDS`
+    
+    `> npm install`
+    
+    `> npm run dev`
+    
 * Server
-    `cd Server`
-    `npm install`
-    `npm run dev`
+
+    `> cd Server`
+    
+    `> npm install`
+    
+    `> npm run dev`
+    
 * Client
-    `cd Client`
-    `java -jar ClientLDS.jar`
+
+    `> cd Client`
+    
+    `> java -jar ClientLDS.jar`
     
     Or  
-    - Import project on eclipse
-    - Eclipse -> Import -> Existing Projects into Workspace
+    - Import project on eclipse (Eclipse -> Import -> Existing Projects into Workspace)
     - Import [UA-Java-Legacy](https://github.com/OPCFoundation/UA-Java-Legacy)lo stack into Workspace
     - Right click on the project "ClientOPCUA_LDS" and choose Properties.
     - Select Java Build Path -> Projects -> Add and select the stack project (opc-ua-stack)
@@ -37,8 +46,9 @@ The server is built in node-js, registers to the LDS and exposes a variable for 
 
 ## How to generate a certificate for LDS Server
 
-`cd LDS`
-`..\CertGenerator\Opc.Ua.CertificateGenerator.exe -cmd issue -sp . -an LDS_Server -au urn:BiuBon -dn LDSHost -pw LDSFilePassword -pem true`
+`> cd LDS`
+
+`> ..\CertGenerator\Opc.Ua.CertificateGenerator.exe -cmd issue -sp . -an LDS_Server -au urn:BiuBon -dn LDSHost -pw LDSFilePassword -pem true`
 
 ## Authors
 
