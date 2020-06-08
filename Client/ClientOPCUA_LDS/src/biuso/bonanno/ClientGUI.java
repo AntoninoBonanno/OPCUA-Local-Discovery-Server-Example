@@ -46,10 +46,10 @@ public class ClientGUI extends javax.swing.JFrame {
                     if(result != JOptionPane.YES_OPTION) return;
                     try {
                         clientOpcua.closeSession();
-                        dispose();
                     } catch (ServiceResultException e1) {
                         JOptionPane.showMessageDialog(me, e1.getMessage(), "Errore", JOptionPane.ERROR_MESSAGE);
                     }  
+                    dispose();
                 }
             });
         } catch (ServiceResultException e1) {

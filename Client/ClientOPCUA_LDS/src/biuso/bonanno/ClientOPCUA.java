@@ -101,7 +101,8 @@ class ClientOPCUA {
         myClient.getApplication().setProductUri("urn:JavaClient");
     }
     
-    public ApplicationDescription[] findServers(String url_LDS) throws ServiceResultException{
+    public ApplicationDescription[] findServers(String url_LDS) throws ServiceResultException {
+        if(currentSession != null) this.closeSession();
         ApplicationDescription[] servers = myClient.discoverApplications(url_LDS);
 
         System.out.println("\n\nHo contattato il Server LDS: " + url_LDS);
@@ -110,7 +111,8 @@ class ClientOPCUA {
         return servers;
     }
     
-    public EndpointDescription[] discoverEndpoints(String server_url) throws ServiceResultException{
+    public EndpointDescription[] discoverEndpoints(String server_url) throws ServiceResultException {
+        if(currentSession != null) this.closeSession();
         // nota: discoverEndpoints e' l'API per il servizio GetEndpoints
         EndpointDescription[] endpoints = myClient.discoverEndpoints(server_url);
 
