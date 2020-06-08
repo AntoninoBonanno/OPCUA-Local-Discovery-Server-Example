@@ -1,10 +1,10 @@
 # Simple Node-OPCUA Local Discovery Server
 
-It is a simple project that implements OPCUA LDS in node-js.
+It is a simple project that implements OPCUA LDS in node.js.
 
 We have created a java client that asks LDS for registered servers. The client is designed specifically for the project servers.
 
-The server is built in node-js, registers to the LDS and exposes a variable for reading the free memory.
+The server is built in node.js, registers to the LDS and exposes a variable for reading the free memory.
 
 ![alt text](https://github.com/AntoninoBonanno/ProgettoII/blob/master/LDS.png)
 
