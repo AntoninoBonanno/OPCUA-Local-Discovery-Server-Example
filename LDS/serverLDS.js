@@ -20,7 +20,7 @@ discoveryServer.start((err) => {
 
     var discoveryServerEndpoint = discoveryServer._get_endpoints()[0];
     console.log(`LDS is now listening on port ${discoveryServer.endpoints[0].port}... ( press CTRL+C to stop)`);
-    console.log("The LDS endpoint url is " + discoveryServerEndpoint.endpointUrl);
+    console.log("The LDS endpoint url is: " + discoveryServerEndpoint.endpointUrl);
 });
 
 

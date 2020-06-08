@@ -33,15 +33,11 @@ The server is built in node-js, registers to the LDS and exposes a variable for 
     
 * Client
 
-    `> cd Client`
-    
-    `> java -jar ClientLDS.jar`
-    
-    Or  
-    - Import project on eclipse (Eclipse -> Import -> Existing Projects into Workspace)
+    - Import ClientOPCUA_LDS project on eclipse (Eclipse -> Import -> Existing Projects into Workspace)
     - Import [UA-Java-Legacy](https://github.com/OPCFoundation/UA-Java-Legacy) stack into Workspace
     - Right click on the project "ClientOPCUA_LDS" and choose Properties.
     - Select Java Build Path -> Projects -> Add and select the stack project (opc-ua-stack)
+    - Copy the LDS endpoint url for start scan.
 
 
 ## How to generate a certificate for LDS Server
