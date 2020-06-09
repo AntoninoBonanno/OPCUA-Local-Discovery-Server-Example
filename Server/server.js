@@ -66,6 +66,6 @@ server.initialize(() => {
     server.start(() => {
         console.log(`Server is now listening on port ${server.endpoints[0].port}... ( press CTRL+C to stop)`);
         const endpointUrl = server.endpoints[0].endpointDescriptions()[0].endpointUrl;
-        console.log("The primary server endpoint url is: ", endpointUrl);
+        console.log("The primary server endpoint url is: " + endpointUrl);
     });
 });

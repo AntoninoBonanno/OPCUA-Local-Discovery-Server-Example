@@ -6,22 +6,33 @@
 package biuso.bonanno;
 
 
+import biuso.bonanno.supportClass.KeysUtils;
 import java.util.Locale;
 
 import org.opcfoundation.ua.application.Client;
 import org.opcfoundation.ua.application.SessionChannel;
+import org.opcfoundation.ua.builtintypes.ExpandedNodeId;
 import org.opcfoundation.ua.builtintypes.LocalizedText;
 import org.opcfoundation.ua.builtintypes.NodeId;
 import org.opcfoundation.ua.common.ServiceFaultException;
 import org.opcfoundation.ua.common.ServiceResultException;
 import org.opcfoundation.ua.core.ApplicationDescription;
 import org.opcfoundation.ua.core.Attributes;
+import org.opcfoundation.ua.core.BrowseDescription;
+import org.opcfoundation.ua.core.BrowseDirection;
+import org.opcfoundation.ua.core.BrowseResponse;
+import org.opcfoundation.ua.core.BrowseResult;
+import org.opcfoundation.ua.core.BrowseResultMask;
 import org.opcfoundation.ua.core.EndpointDescription;
+import org.opcfoundation.ua.core.Identifiers;
+import org.opcfoundation.ua.core.NodeClass;
 import org.opcfoundation.ua.core.ReadResponse;
 import org.opcfoundation.ua.core.ReadValueId;
 import org.opcfoundation.ua.core.TimestampsToReturn;
 import org.opcfoundation.ua.transport.security.CertificateValidator;
 import org.opcfoundation.ua.transport.security.KeyPair;
+
+
 
 /**
  *
@@ -31,7 +42,8 @@ class ClientOPCUA {
     
     private final Client myClient;
     private SessionChannel currentSession = null;
-    private static Double FreeMemory = new Double(500);
+    @SuppressWarnings("deprecation")
+	private static Double MaxAge = new Double(500);
     
     public ClientOPCUA() throws ServiceResultException {
         final KeyPair pair = KeysUtils.getCert("OPCClient");
@@ -49,9 +61,9 @@ class ClientOPCUA {
         if(currentSession != null) this.closeSession();
         ApplicationDescription[] servers = myClient.discoverApplications(url_LDS);
 
-        System.out.println("\n\nHo contattato il Server LDS: " + url_LDS);
-        System.out.println("Il numero di server e'�: " + servers.length);
-        
+        System.out.println("\n<-- FindServers -->\nHo contattato il Server LDS: " + url_LDS);
+        System.out.println("Il numero di server e': " + servers.length);
+                
         return servers;
     }
     
@@ -60,18 +72,18 @@ class ClientOPCUA {
         // nota: discoverEndpoints e' l'API per il servizio GetEndpoints
         EndpointDescription[] endpoints = myClient.discoverEndpoints(server_url);
 
-        System.out.println("\n\nHo contattato il Server: " + server_url);
-        System.out.println("Il numero di endpoint e' " + endpoints.length);
+        System.out.println("\n<-- DiscoverEndpoints -->\nHo contattato il Server: " + server_url);
+        System.out.println("Il numero di endpoint e': " + endpoints.length);
 
         return endpoints;        
     }
     
-    public boolean createSession(String server_url, EndpointDescription endpoint) throws ServiceResultException{
-        if(currentSession != null) this.closeSession();
-            
+    public boolean createSession(String server_url, EndpointDescription endpoint) throws ServiceResultException {
+        if(currentSession != null ) this.closeSession();
+        
         currentSession = myClient.createSessionChannel(server_url, endpoint);
         currentSession.activate();
-        System.out.print("\n\nOPC UA JAVA Client: Connessione stabilita con " + server_url + "\n");
+        System.out.print("\n<-- CreateSessionChannel -->\nOPC UA JAVA Client: Connessione stabilita con " + server_url + "\n");
         
         return true;
     }
@@ -85,18 +97,36 @@ class ClientOPCUA {
         
         return true;
     }
-    public String getFreeMemory() throws Exception{    
+    
+    
+    public BrowseResult[] getBrowse(ExpandedNodeId node) throws Exception{    
         if(currentSession == null) throw new Exception("Crea una sessione");
         
-        int ns = 1; //namespace
-        int idNum = 1; //nodeId     
-        ReadResponse res = currentSession.Read(null, FreeMemory, TimestampsToReturn.Source,
-                new ReadValueId(new NodeId(ns, idNum), Attributes.Value, null, null));
+        BrowseDescription browse = new BrowseDescription();
+
+        if(node == null) browse.setNodeId(Identifiers.ObjectsFolder);
+        else browse.setNodeId(NodeId.get(node.getIdType(), node.getNamespaceIndex(), node.getValue()));
+                
+        browse.setBrowseDirection(BrowseDirection.Forward);
+        browse.setIncludeSubtypes(true);
+        browse.setNodeClassMask(NodeClass.Object, NodeClass.Variable);
+		browse.setResultMask(BrowseResultMask.All);
+		BrowseResponse res = currentSession.Browse(null, null, null, browse);
+	
+		return res.getResults();        
+    }
+    
+    
+    public String getVariable(ExpandedNodeId node) throws Exception {    
+        if(currentSession == null) throw new Exception("Crea una sessione");
         
-        System.out.println("\n\nValore Letto = " + res.getResults()[0].getValue());
-        System.out.println("Status Letto = " + res.getResults()[0].getStatusCode());
-        System.out.println("Timestamp Source Letto = " + res.getResults()[0].getSourceTimestamp());
-                       
+        ReadResponse res = currentSession.Read(null, MaxAge, TimestampsToReturn.Source,
+                new ReadValueId(NodeId.get(node.getIdType(), node.getNamespaceIndex(), node.getValue()), Attributes.Value, null, null));
+        
+        System.out.println("\n<-- GetVariable -->\nValore letto: " + res.getResults()[0].getValue());
+        System.out.println("Status letto: " + res.getResults()[0].getStatusCode());
+        System.out.println("Timestamp source letto: " + res.getResults()[0].getSourceTimestamp());
+        
         return res.getResults()[0].getValue().toString();
     }
     
