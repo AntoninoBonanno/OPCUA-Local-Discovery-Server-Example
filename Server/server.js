@@ -3,18 +3,25 @@ let path = require("path");
 require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 
 const opcua = require("node-opcua");
+const opcua_cm = require("node-opcua-certificate-manager");
 const OPCUAServer = opcua.OPCUAServer;
 
 const server = new OPCUAServer({
     resourcePath: "/UA/ServerBB", // this path will be added to the endpoint resource name
-    port: parseInt(process.env.SERVERBB_PORT) ,
+    port: parseInt(process.env.SERVERBB_PORT),
     serverInfo: {
-        applicationUri:  "ServerBB",
+        applicationUri: "ServerBB",
         productUri: "NodeOPCUA-ServerBB",
-        applicationName: { text: "ServerBB", locale: "en" }
+        applicationName: { text: "ServerBB", locale: "en" },
+        productUri: "ServerBB",
     },
     registerServerMethod: opcua.RegisterServerMethod.LDS,
-    discoveryServerEndpointUrl: "opc.tcp://"+os.hostname()+":"+process.env.LDS_PORT,
+    discoveryServerEndpointUrl: `opc.tcp://${os.hostname()}:${process.env.LDS_PORT}`,
+
+    serverCertificateManager: new opcua_cm.OPCUACertificateManager({
+        automaticallyAcceptUnknownCertificate: true,
+        rootFolder: path.join(__dirname, "./certs")
+    }),
 });
 
 server.registerServerManager.timeout = 100;
@@ -59,6 +66,6 @@ server.initialize(() => {
     server.start(() => {
         console.log(`Server is now listening on port ${server.endpoints[0].port}... ( press CTRL+C to stop)`);
         const endpointUrl = server.endpoints[0].endpointDescriptions()[0].endpointUrl;
-        console.log("The primary server endpoint url is ", endpointUrl);
+        console.log("The primary server endpoint url is: ", endpointUrl);
     });
 });

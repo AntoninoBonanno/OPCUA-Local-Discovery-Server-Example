@@ -40,12 +40,6 @@ The server is built in node-js, registers to the LDS and exposes a variable for 
     - Copy the LDS endpoint url for start scan.
 
 
-## How to generate a certificate for LDS Server
-
-`> cd LDS`
-
-`> ..\CertGenerator\Opc.Ua.CertificateGenerator.exe -cmd issue -sp . -an LDS_Server -au urn:BiuBon -dn LDSHost -pw LDSFilePassword -pem true`
-
 ## Authors
 
 [Bonanno Antonino](https://github.com/AntoninoBonanno), [Biuso Mario](https://github.com/Mariobiuso)

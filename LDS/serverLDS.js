@@ -9,7 +9,10 @@ const discoveryServer = new OPCUADiscoveryServer({
     serverCertificateManager: new opcua_cm.OPCUACertificateManager({
         automaticallyAcceptUnknownCertificate: true,
         rootFolder: path.join(__dirname, "./certs")
-    })
+    }),
+    serverInfo: {
+        applicationName: { text: "ServerLDS", locale: "en" },
+    },
 });
 
 discoveryServer.start((err) => {

@@ -216,7 +216,7 @@ public class ClientGUI extends javax.swing.JFrame {
                 if(server.getApplicationType().toString() == "DiscoveryServer") continue;
                 
                 DefaultMutableTreeNode a = new DefaultMutableTreeNode(server.getProductUri());
-                a.add(new DefaultMutableTreeNode("Name: " + server.getApplicationName()));
+                a.add(new DefaultMutableTreeNode("Name: " + server.getApplicationName().getText()));
                 a.add(new DefaultMutableTreeNode("Type: " + server.getApplicationType()));
                 a.add(new DefaultMutableTreeNode("URL: " + server.getDiscoveryUrls()[0]));
                 a.add(new DefaultMutableTreeNode("Uri: " + server.getApplicationUri()));
@@ -249,7 +249,7 @@ public class ClientGUI extends javax.swing.JFrame {
             	String secPoly = endpoint.getSecurityPolicyUri().substring(endpoint.getSecurityPolicyUri().indexOf('#')+1);
                 model.addElement(endpoint.getEndpointUrl() + " - " + endpoint.getSecurityMode() + " - "+ secPoly + " - "+ endpoint.getSecurityLevel());
                 
-                System.out.println("\n\nInformazioni dell'endpoint");
+                System.out.println("\nInformazioni dell'endpoint");
                 System.out.println("URL  e' " + endpoint.getEndpointUrl());
                 System.out.println("Security Mode " + endpoint.getSecurityMode());
                 System.out.println("Security Policy " + endpoint.getSecurityPolicyUri());
