@@ -96,7 +96,6 @@
   <SubComponents>
     <Component class="javax.swing.JTextField" name="jTextField_discoveryUrl">
       <Properties>
-        <Property name="text" type="java.lang.String" value="opc.tcp://NIRGONS-PC:4334"/>
         <Property name="toolTipText" type="java.lang.String" value="Inserisci Discovery URL"/>
       </Properties>
     </Component>

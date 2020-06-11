@@ -79,12 +79,9 @@ public class ClientGUI extends javax.swing.JFrame {
                 if (node == null || !node.isLeaf()) return;
 
                 TreeBrowseObject nodeInfo = (TreeBrowseObject) node.getUserObject();
-                try {
-                    if(nodeInfo.getValue() == null) {
-                        String value = clientOpcua.getVariable(nodeInfo.getNodeId());
-                        nodeInfo.setValue(value);
-                    }					
-                    jLabel_variable.setText(nodeInfo.getValue());					
+                try {                    
+                    String value = clientOpcua.getVariable(nodeInfo.getNodeId());                       			
+                    jLabel_variable.setText(value);					
                 } catch (Exception e1) {
                     JOptionPane.showMessageDialog(me, e1.getMessage(), "Errore", JOptionPane.ERROR_MESSAGE);
                 }            	
@@ -117,7 +114,6 @@ public class ClientGUI extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         setTitle("Client OPCUA - LDS");
 
-        jTextField_discoveryUrl.setText("opc.tcp://NIRGONS-PC:4334");
         jTextField_discoveryUrl.setToolTipText("Inserisci Discovery URL");
 
         jButton_findServer.setText("Cerca Server");
@@ -139,7 +135,7 @@ public class ClientGUI extends javax.swing.JFrame {
             }
         });
 
-        jList_endpoint.setModel(new DefaultListModel<String>());
+        jList_endpoint.setModel(new DefaultListModel());
         jScrollPane1.setViewportView(jList_endpoint);
 
         jButton_newSession.setText("Crea sessione");

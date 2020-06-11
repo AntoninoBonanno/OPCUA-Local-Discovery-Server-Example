@@ -14,16 +14,14 @@ import org.opcfoundation.ua.core.ReferenceDescription;
  * @author Bonanno Antonino, Biuso Mario
  */
 public class TreeBrowseObject {
-    private String displayName;
-    private NodeClass nodeClass;
-    private ExpandedNodeId nodeId;
-    private String value;
+    private final String displayName;
+    private final NodeClass nodeClass;
+    private final ExpandedNodeId nodeId;
 
     public TreeBrowseObject(ReferenceDescription referenceDescription) {
         this.displayName = referenceDescription.getDisplayName().getText();
         this.nodeClass = referenceDescription.getNodeClass();
         this.nodeId = referenceDescription.getNodeId();
-        this.value = null;
     }
 
     public String getDisplayName() {
@@ -36,14 +34,6 @@ public class TreeBrowseObject {
 
     public ExpandedNodeId getNodeId() {
         return nodeId;
-    }
-
-    public String getValue() {
-        return value;
-    }
-
-    public void setValue(String value) {
-        this.value = value;
     }
 
     @Override

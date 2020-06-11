@@ -14,11 +14,11 @@ import org.opcfoundation.ua.utils.ObjectUtils;
  */
 public class TreeServerObject {
     
-    private String ApplicationUri;
-    private String ProductUri;
-    private String ApplicationName;
-    private String ApplicationType;
-    private String DiscoveryUrl;
+    private final String ApplicationUri;
+    private final String ProductUri;
+    private final String ApplicationName;
+    private final String ApplicationType;
+    private final String DiscoveryUrl;
 
     public TreeServerObject(ApplicationDescription applicationDescription) {
         this.ApplicationUri = applicationDescription.getApplicationUri();
