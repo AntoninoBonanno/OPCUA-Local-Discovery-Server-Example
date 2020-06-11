@@ -1,0 +1,36 @@
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Server\bin\Debug\netstandard2.0\Opc.Ua.Server.deps.json
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Server\bin\Debug\netstandard2.0\Opc.Ua.Server.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Server\bin\Debug\netstandard2.0\Opc.Ua.Server.pdb
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Server\bin\Debug\netstandard2.0\Opc.Ua.Core.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Server\bin\Debug\netstandard2.0\Opc.Ua.Core.pdb
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.csprojAssemblyReference.cache
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.csproj.CoreCompileInputs.cache
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.AssemblyInfoInputs.cache
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.AssemblyInfo.cs
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.csproj.CopyComplete
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Server\bin\Debug\netstandard2.0\Opc.Ua.Server.deps.json
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Server\bin\Debug\netstandard2.0\Opc.Ua.Server.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Server\bin\Debug\netstandard2.0\Opc.Ua.Server.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Server\bin\Debug\netstandard2.0\Opc.Ua.Core.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Server\bin\Debug\netstandard2.0\Opc.Ua.Core.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.csprojAssemblyReference.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.csproj.CoreCompileInputs.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.AssemblyInfoInputs.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.AssemblyInfo.cs
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.csproj.CopyComplete
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Server\bin\Debug\netstandard2.0\Opc.Ua.Server.deps.json
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Server\bin\Debug\netstandard2.0\Opc.Ua.Server.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Server\bin\Debug\netstandard2.0\Opc.Ua.Server.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Server\bin\Debug\netstandard2.0\Opc.Ua.Core.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Server\bin\Debug\netstandard2.0\Opc.Ua.Core.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.csprojAssemblyReference.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.csproj.CoreCompileInputs.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.AssemblyInfoInputs.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.AssemblyInfo.cs
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.csproj.CopyComplete
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Server\obj\Debug\netstandard2.0\Opc.Ua.Server.pdb

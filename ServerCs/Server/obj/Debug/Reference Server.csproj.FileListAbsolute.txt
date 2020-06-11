@@ -1,0 +1,14 @@
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\bin\Debug\Quickstarts.ReferenceServer.Config.xml
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\bin\Debug\App.ico
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\bin\Debug\Quickstarts.ReferenceServer.exe.config
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\bin\Debug\Quickstarts.ReferenceServer.exe
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\bin\Debug\Quickstarts.ReferenceServer.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Server\obj\Debug\Reference Server.csprojAssemblyReference.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Server\obj\Debug\Quickstarts.ReferenceServer.exe.config
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Server\obj\Debug\Quickstarts.ReferenceServer.MonitoredItemEventLogDlg.resources
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Server\obj\Debug\Quickstarts.ReferenceServer.Properties.Resources.resources
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Server\obj\Debug\Reference Server.csproj.GenerateResource.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Server\obj\Debug\Reference Server.csproj.CoreCompileInputs.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Server\obj\Debug\Reference Server.csproj.CopyComplete
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Server\obj\Debug\Quickstarts.ReferenceServer.exe
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Server\obj\Debug\Quickstarts.ReferenceServer.pdb

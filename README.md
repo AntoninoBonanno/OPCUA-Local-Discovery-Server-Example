@@ -1,17 +1,23 @@
 # Simple Node-OPCUA Local Discovery Server
 
-It is a simple project that implements OPCUA LDS in node.js.
+It's a simple project that implements OPCUA LDS in node.js.
 
-We have created a java client that asks LDS for registered servers. The client is designed specifically for the project servers.
+We have created a Java client that requests registered servers from LDS.
 
-The server is built in node.js, registers to the LDS and exposes a variable for reading the free memory.
+We have created several servers, in different languages, that register with LDS.
 
-![alt text](https://github.com/AntoninoBonanno/ProgettoII/blob/master/LDS.png)
+* Client: Java Client in Java 
+* LDS: Local Discovery Server in Node.js
+* ServerNode: Server in Node.js
+* ServerCs: Server in C#
+
+![alt text](https://github.com/AntoninoBonanno/Simple-Node-OPCUA-Local-Discovery-Server/blob/master/LDS.png)
 
 ## Dependencies
 
-* [node-opcua](https://github.com/node-opcua/node-opcua/)
-* [UA-Java-Legacy](https://github.com/OPCFoundation/UA-Java-Legacy)
+* For LDS and ServerNode: [node-opcua](https://github.com/node-opcua/node-opcua/)
+* For Client: [UA-Java-Legacy](https://github.com/OPCFoundation/UA-Java-Legacy)
+* For ServerCs: [UA-.NETStandard](https://github.com/OPCFoundation/UA-.NETStandard)
 
 ## Start project
 
@@ -23,17 +29,34 @@ The server is built in node.js, registers to the LDS and exposes a variable for 
     
     `> npm run dev`
     
-* Server
+* ServerNode
 
-    `> cd Server`
+    `> cd ServerNode`
     
     `> npm install`
     
     `> npm run dev`
+
+* ServerCs (C#)
+
+    `> cd ServerCs\bin`
+
+    `> ServerCs.exe`
     
+    Or 
+
+    - Open ServerCs\ServerCs.sln on Visual Studio 
+    - You can edit LDS default port inside Server\ServerCs.cs 
+
 * Client
 
-    - Import ClientOPCUA_LDS project on eclipse (Eclipse -> Import -> Existing Projects into Workspace)
+    `> cd ClientOPCUA_LDS`
+
+    `> java -jar ClientForLDS.jar` (Run as administrator)
+
+    Or
+
+    - Import ClientOPCUA_LDS project on Eclipse (Eclipse -> Import -> Existing Projects into Workspace)
     - Import [UA-Java-Legacy](https://github.com/OPCFoundation/UA-Java-Legacy) stack into Workspace
     - Right click on the project "ClientOPCUA_LDS" and choose Properties.
     - Select Java Build Path -> Projects -> Add and select the stack project (opc-ua-stack)

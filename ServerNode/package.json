@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Simple_Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node serverNode.js"
+  },
+  "authors": [
+    {
+      "name": "Biuso Mario"
+    },
+    {
+      "name": "Bonanno Antonino"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-opcua": "^2.6.4",
+    "node-opcua-certificate-manager": "^2.6.4"
+  }
+}

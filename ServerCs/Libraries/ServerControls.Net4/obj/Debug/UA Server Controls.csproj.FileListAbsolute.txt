@@ -1,0 +1,180 @@
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Opc.Ua.ServerControls.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Opc.Ua.ServerControls.pdb
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Opc.Ua.Configuration.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Opc.Ua.Core.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Opc.Ua.Server.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\System.Net.Http.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Hosting.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\netstandard.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\System.Memory.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Http.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\System.Reflection.Metadata.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Opc.Ua.Core.pdb
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Opc.Ua.Configuration.pdb
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\bin\Debug\Opc.Ua.Server.pdb
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\obj\Debug\UA Server Controls.csprojAssemblyReference.cache
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.ExceptionDlg.resources
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.Properties.Resources.resources
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.ServerDiagnosticsCtrl.resources
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.ServerForm.resources
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.HeaderBranding.resources
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\obj\Debug\UA Server Controls.csproj.GenerateResource.cache
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\obj\Debug\UA Server Controls.csproj.CoreCompileInputs.cache
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\obj\Debug\UA Server Controls.csproj.CopyComplete
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\obj\Debug\Opc.Ua.ServerControls.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\SampleApplications\Samples\ServerControls.Net4\obj\Debug\Opc.Ua.ServerControls.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Opc.Ua.ServerControls.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Opc.Ua.ServerControls.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Opc.Ua.Configuration.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Opc.Ua.Core.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Opc.Ua.Server.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\System.Net.Http.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Hosting.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\netstandard.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\System.Memory.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Http.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\System.Reflection.Metadata.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Opc.Ua.Core.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Opc.Ua.Configuration.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Opc.Ua.Server.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\obj\Debug\UA Server Controls.csprojAssemblyReference.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.ExceptionDlg.resources
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.Properties.Resources.resources
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.ServerDiagnosticsCtrl.resources
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.ServerForm.resources
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.HeaderBranding.resources
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\obj\Debug\UA Server Controls.csproj.GenerateResource.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\obj\Debug\UA Server Controls.csproj.CoreCompileInputs.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\obj\Debug\UA Server Controls.csproj.CopyComplete
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\obj\Debug\Opc.Ua.ServerControls.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\ServerControls.Net4\obj\Debug\Opc.Ua.ServerControls.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Opc.Ua.ServerControls.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Opc.Ua.ServerControls.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Opc.Ua.Configuration.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Opc.Ua.Core.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Opc.Ua.Server.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\System.Net.Http.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Hosting.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\netstandard.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\System.Memory.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Http.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\System.Reflection.Metadata.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Opc.Ua.Core.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Opc.Ua.Configuration.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\bin\Debug\Opc.Ua.Server.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\obj\Debug\UA Server Controls.csprojAssemblyReference.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.ExceptionDlg.resources
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.Properties.Resources.resources
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.ServerDiagnosticsCtrl.resources
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.ServerForm.resources
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.HeaderBranding.resources
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\obj\Debug\UA Server Controls.csproj.GenerateResource.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\obj\Debug\UA Server Controls.csproj.CoreCompileInputs.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\obj\Debug\UA Server Controls.csproj.CopyComplete
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\obj\Debug\Opc.Ua.ServerControls.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\ServerControls.Net4\obj\Debug\Opc.Ua.ServerControls.pdb

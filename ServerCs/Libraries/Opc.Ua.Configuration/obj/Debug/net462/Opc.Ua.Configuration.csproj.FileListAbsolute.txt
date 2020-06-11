@@ -1,0 +1,456 @@
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Opc.Ua.Configuration.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Opc.Ua.Configuration.pdb
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Hosting.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Http.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Configuration.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Logging.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Options.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Primitives.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Net.Http.Headers.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Newtonsoft.Json.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\BouncyCastle.Crypto.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Buffers.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Collections.Immutable.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ComponentModel.Annotations.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.Pipelines.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Memory.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Numerics.Vectors.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Reflection.Metadata.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Cryptography.Cng.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Text.Encodings.Web.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.Tasks.Extensions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Win32.Primitives.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\netstandard.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.AppContext.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Collections.Concurrent.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Collections.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Collections.NonGeneric.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Collections.Specialized.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ComponentModel.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ComponentModel.Primitives.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ComponentModel.TypeConverter.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Console.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Data.Common.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.Contracts.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.Debug.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.Process.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.StackTrace.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.Tools.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.TraceSource.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.Tracing.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Drawing.Primitives.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Dynamic.Runtime.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Globalization.Calendars.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Globalization.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Globalization.Extensions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.Compression.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.Compression.ZipFile.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.FileSystem.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.FileSystem.Primitives.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.FileSystem.Watcher.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.IsolatedStorage.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.MemoryMappedFiles.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.Pipes.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Linq.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Linq.Expressions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Linq.Parallel.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Linq.Queryable.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.Http.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.NameResolution.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.NetworkInformation.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.Ping.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.Primitives.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.Requests.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.Security.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.Sockets.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.WebHeaderCollection.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.WebSockets.Client.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.WebSockets.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ObjectModel.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Reflection.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Reflection.Extensions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Reflection.Primitives.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Resources.Reader.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Resources.ResourceManager.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Resources.Writer.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Extensions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Handles.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.InteropServices.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Numerics.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Serialization.Formatters.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Serialization.Json.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Serialization.Primitives.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Serialization.Xml.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Claims.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Cryptography.Algorithms.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Cryptography.Csp.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Cryptography.Encoding.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Cryptography.Primitives.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Principal.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.SecureString.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Text.Encoding.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Text.Encoding.Extensions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Text.RegularExpressions.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.Overlapped.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.Tasks.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.Tasks.Parallel.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.Thread.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.ThreadPool.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.Timer.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ValueTuple.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Xml.ReaderWriter.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Xml.XDocument.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Xml.XmlDocument.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Xml.XmlSerializer.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Xml.XPath.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Xml.XPath.XDocument.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Opc.Ua.Core.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Opc.Ua.Core.pdb
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.csprojAssemblyReference.cache
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.csproj.CoreCompileInputs.cache
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.AssemblyInfoInputs.cache
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.AssemblyInfo.cs
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.csproj.CopyComplete
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.dll
+C:\Users\Nino\Downloads\UA-.NETStandard-master\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Opc.Ua.Configuration.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Opc.Ua.Configuration.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Hosting.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Http.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Configuration.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Logging.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Options.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Primitives.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Net.Http.Headers.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Newtonsoft.Json.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\BouncyCastle.Crypto.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Buffers.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Collections.Immutable.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ComponentModel.Annotations.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.Pipelines.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Memory.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Numerics.Vectors.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Reflection.Metadata.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Cryptography.Cng.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Text.Encodings.Web.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.Tasks.Extensions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Win32.Primitives.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\netstandard.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.AppContext.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Collections.Concurrent.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Collections.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Collections.NonGeneric.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Collections.Specialized.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ComponentModel.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ComponentModel.Primitives.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ComponentModel.TypeConverter.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Console.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Data.Common.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.Contracts.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.Debug.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.Process.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.StackTrace.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.Tools.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.TraceSource.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.Tracing.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Drawing.Primitives.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Dynamic.Runtime.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Globalization.Calendars.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Globalization.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Globalization.Extensions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.Compression.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.Compression.ZipFile.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.FileSystem.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.FileSystem.Primitives.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.FileSystem.Watcher.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.IsolatedStorage.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.MemoryMappedFiles.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.Pipes.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Linq.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Linq.Expressions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Linq.Parallel.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Linq.Queryable.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.Http.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.NameResolution.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.NetworkInformation.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.Ping.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.Primitives.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.Requests.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.Security.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.Sockets.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.WebHeaderCollection.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.WebSockets.Client.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.WebSockets.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ObjectModel.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Reflection.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Reflection.Extensions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Reflection.Primitives.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Resources.Reader.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Resources.ResourceManager.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Resources.Writer.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Extensions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Handles.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.InteropServices.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Numerics.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Serialization.Formatters.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Serialization.Json.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Serialization.Primitives.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Serialization.Xml.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Claims.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Cryptography.Algorithms.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Cryptography.Csp.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Cryptography.Encoding.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Cryptography.Primitives.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Principal.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.SecureString.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Text.Encoding.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Text.Encoding.Extensions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Text.RegularExpressions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.Overlapped.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.Tasks.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.Tasks.Parallel.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.Thread.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.ThreadPool.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.Timer.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ValueTuple.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Xml.ReaderWriter.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Xml.XDocument.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Xml.XmlDocument.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Xml.XmlSerializer.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Xml.XPath.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Xml.XPath.XDocument.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Opc.Ua.Core.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Opc.Ua.Core.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.csprojAssemblyReference.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.csproj.CoreCompileInputs.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.AssemblyInfoInputs.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.AssemblyInfo.cs
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.csproj.CopyComplete
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\ServerCs\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Opc.Ua.Configuration.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Opc.Ua.Configuration.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Hosting.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Http.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Configuration.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Logging.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Options.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Extensions.Primitives.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Net.Http.Headers.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Newtonsoft.Json.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\BouncyCastle.Crypto.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Buffers.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Collections.Immutable.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ComponentModel.Annotations.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.Pipelines.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Memory.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Numerics.Vectors.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Reflection.Metadata.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Cryptography.Cng.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Text.Encodings.Web.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.Tasks.Extensions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Microsoft.Win32.Primitives.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\netstandard.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.AppContext.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Collections.Concurrent.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Collections.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Collections.NonGeneric.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Collections.Specialized.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ComponentModel.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ComponentModel.Primitives.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ComponentModel.TypeConverter.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Console.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Data.Common.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.Contracts.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.Debug.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.Process.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.StackTrace.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.Tools.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.TraceSource.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Diagnostics.Tracing.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Drawing.Primitives.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Dynamic.Runtime.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Globalization.Calendars.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Globalization.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Globalization.Extensions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.Compression.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.Compression.ZipFile.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.FileSystem.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.FileSystem.Primitives.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.FileSystem.Watcher.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.IsolatedStorage.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.MemoryMappedFiles.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.Pipes.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Linq.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Linq.Expressions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Linq.Parallel.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Linq.Queryable.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.Http.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.NameResolution.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.NetworkInformation.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.Ping.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.Primitives.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.Requests.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.Security.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.Sockets.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.WebHeaderCollection.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.WebSockets.Client.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Net.WebSockets.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ObjectModel.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Reflection.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Reflection.Extensions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Reflection.Primitives.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Resources.Reader.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Resources.ResourceManager.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Resources.Writer.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Extensions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Handles.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.InteropServices.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Numerics.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Serialization.Formatters.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Serialization.Json.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Serialization.Primitives.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Runtime.Serialization.Xml.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Claims.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Cryptography.Algorithms.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Cryptography.Csp.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Cryptography.Encoding.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Cryptography.Primitives.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.Principal.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Security.SecureString.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Text.Encoding.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Text.Encoding.Extensions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Text.RegularExpressions.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.Overlapped.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.Tasks.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.Tasks.Parallel.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.Thread.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.ThreadPool.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Threading.Timer.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.ValueTuple.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Xml.ReaderWriter.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Xml.XDocument.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Xml.XmlDocument.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Xml.XmlSerializer.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Xml.XPath.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\System.Xml.XPath.XDocument.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Opc.Ua.Core.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\bin\Debug\net462\Opc.Ua.Core.pdb
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.csprojAssemblyReference.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.csproj.CoreCompileInputs.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.AssemblyInfoInputs.cache
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.AssemblyInfo.cs
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.csproj.CopyComplete
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.dll
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerCs\Libraries\Opc.Ua.Configuration\obj\Debug\net462\Opc.Ua.Configuration.pdb

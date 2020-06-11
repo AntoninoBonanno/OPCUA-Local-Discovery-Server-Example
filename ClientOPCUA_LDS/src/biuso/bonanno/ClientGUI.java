@@ -14,10 +14,12 @@ import javax.swing.event.TreeSelectionListener;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
 
+import org.opcfoundation.ua.builtintypes.NodeId;
 import org.opcfoundation.ua.common.ServiceResultException;
 import org.opcfoundation.ua.core.ApplicationDescription;
 import org.opcfoundation.ua.core.BrowseResult;
 import org.opcfoundation.ua.core.EndpointDescription;
+import org.opcfoundation.ua.core.NodeClass;
 import org.opcfoundation.ua.core.ReferenceDescription;
 
 import biuso.bonanno.supportClass.TreeBrowseObject;
@@ -76,7 +78,7 @@ public class ClientGUI extends javax.swing.JFrame {
             public void valueChanged(TreeSelectionEvent e) {
                 DefaultMutableTreeNode node = (DefaultMutableTreeNode) jTree_browse.getLastSelectedPathComponent();
 
-                if (node == null || !node.isLeaf()) return;
+                if (node == null || node.isRoot() || !node.isLeaf()) return;
 
                 TreeBrowseObject nodeInfo = (TreeBrowseObject) node.getUserObject();
                 try {                    
@@ -184,7 +186,8 @@ public class ClientGUI extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel_variable, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addComponent(jLabel_variable, javax.swing.GroupLayout.PREFERRED_SIZE, 739, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -223,15 +226,7 @@ public class ClientGUI extends javax.swing.JFrame {
             return;
         }
         
-        endpoints = null;
-        ((DefaultListModel<String>) jList_endpoint.getModel()).clear();
-        DefaultTreeModel modelT = (DefaultTreeModel) jTree_browse.getModel();
-        DefaultMutableTreeNode rootT = (DefaultMutableTreeNode) modelT.getRoot();
-        rootT.removeAllChildren();
-        modelT.reload();
-        
-        jButton_newSession.setEnabled(false);
-        jButton_selectServer.setEnabled(false);
+        reset(false);
         
         try {
             ApplicationDescription[] servers = clientOpcua.findServers(url_lds.replaceAll("\\s+",""));       
@@ -267,10 +262,7 @@ public class ClientGUI extends javax.swing.JFrame {
             return;
         }
         
-        DefaultTreeModel modelT = (DefaultTreeModel) jTree_browse.getModel();
-        DefaultMutableTreeNode rootT = (DefaultMutableTreeNode) modelT.getRoot();
-        rootT.removeAllChildren();
-        modelT.reload();
+       reset(true);
         
         if(selRow.isLeaf()) selRow = (DefaultMutableTreeNode) selRow.getParent();
         TreeServerObject treeServer = (TreeServerObject) selRow.getUserObject();
@@ -392,13 +384,30 @@ public class ClientGUI extends javax.swing.JFrame {
     private void printObjectTree(BrowseResult[] result, DefaultMutableTreeNode node) throws Exception{
         for(BrowseResult r : result){   
             for(ReferenceDescription ref : r.getReferences()){   
-                DefaultMutableTreeNode a = new DefaultMutableTreeNode(new TreeBrowseObject(ref));                
-                BrowseResult[] rx = clientOpcua.getBrowse(ref.getNodeId());
-                printObjectTree(rx, a);
-				
+                DefaultMutableTreeNode a = new DefaultMutableTreeNode(new TreeBrowseObject(ref));      
+                if(ref.getNodeClass() == NodeClass.Object) {
+	                BrowseResult[] rx = clientOpcua.getBrowse(ref.getNodeId());
+	                printObjectTree(rx, a);
+                }               
                 node.add(a);                
             }                
         }
+    }
+    
+    private void reset(boolean onlyTree) {
+    	
+    	DefaultTreeModel modelT = (DefaultTreeModel) jTree_browse.getModel();
+        DefaultMutableTreeNode rootT = (DefaultMutableTreeNode) modelT.getRoot();
+        rootT.removeAllChildren();
+        modelT.reload();
+        jLabel_variable.setText(null);
+        
+        if(onlyTree) return;
+    	endpoints = null;
+        ((DefaultListModel<String>) jList_endpoint.getModel()).clear();        
+        
+        jButton_newSession.setEnabled(false);
+        jButton_selectServer.setEnabled(false);        
     }
 
 }
