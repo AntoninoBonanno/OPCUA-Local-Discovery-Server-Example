@@ -37,7 +37,7 @@ We have created several servers, in different languages, that register with LDS.
     
     `> npm run dev`
 
-* ServerCs (C#)
+* ServerCs 
 
     `> cd ServerCs\bin`
 
