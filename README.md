@@ -6,10 +6,10 @@ We have created a Java client that requests registered servers from LDS.
 
 We have created several servers, in different languages, that register with LDS.
 
-* Client: Java Client in Java 
-* LDS: Local Discovery Server in Node.js
-* ServerNode: Server in Node.js
-* ServerCs: Server in C#
+* **Client**: Java Client in Java 
+* **LDS**: Local Discovery Server in Node.js
+* **ServerNode**: Server in Node.js
+* **ServerCs**: Server in C#
 
 ![alt text](https://github.com/AntoninoBonanno/Simple-Node-OPCUA-Local-Discovery-Server/blob/master/LDS.png)
 
@@ -17,7 +17,7 @@ We have created several servers, in different languages, that register with LDS.
 
 * For LDS and ServerNode: [node-opcua](https://github.com/node-opcua/node-opcua/)
 * For Client: [UA-Java-Legacy](https://github.com/OPCFoundation/UA-Java-Legacy)
-* For ServerCs: [UA-.NETStandard](https://github.com/OPCFoundation/UA-.NETStandard)
+* For ServerCs: [UA-.NETStandard](https://github.com/OPCFoundation/UA-.NETStandard), [Dotnet](https://dotnet.microsoft.com/download)
 
 ## Start project
 
