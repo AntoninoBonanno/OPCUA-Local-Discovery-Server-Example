@@ -60,7 +60,8 @@ We have created several servers, in different languages, that register with LDS.
     - Import [UA-Java-Legacy](https://github.com/OPCFoundation/UA-Java-Legacy) stack into Workspace
     - Right click on the project "ClientOPCUA_LDS" and choose Properties.
     - Select Java Build Path -> Projects -> Add and select the stack project (opc-ua-stack)
-    - Copy the LDS endpoint url for start scan.
+    
+**Copy the LDS endpoint url inside Client for start scan.** 
 
 
 ## Authors
