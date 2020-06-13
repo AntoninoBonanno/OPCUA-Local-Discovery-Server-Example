@@ -1,0 +1,12 @@
+﻿  ServerC.cpp
+ServerC.obj : error LNK2019: riferimento al simbolo esterno __imp__UA_Variant_setScalar non risolto nella funzione _main
+ServerC.obj : error LNK2019: riferimento al simbolo esterno __imp__UA_Server_delete non risolto nella funzione _main
+ServerC.obj : error LNK2019: riferimento al simbolo esterno __imp__UA_Server_getConfig non risolto nella funzione _main
+ServerC.obj : error LNK2019: riferimento al simbolo esterno __imp__UA_Server_run non risolto nella funzione _main
+ServerC.obj : error LNK2019: riferimento al simbolo esterno __imp____UA_Server_addNode non risolto nella funzione _UA_Server_addVariableNode
+ServerC.obj : error LNK2019: riferimento al simbolo esterno __imp__UA_Server_new non risolto nella funzione _main
+ServerC.obj : error LNK2019: riferimento al simbolo esterno __imp__UA_ServerConfig_setMinimalCustomBuffer non risolto nella funzione _UA_ServerConfig_setMinimal
+ServerC.obj : error LNK2001: simbolo esterno __imp__UA_NODEID_NULL non risolto
+ServerC.obj : error LNK2001: simbolo esterno __imp__UA_TYPES non risolto
+ServerC.obj : error LNK2001: simbolo esterno __imp__UA_VariableAttributes_default non risolto
+C:\Users\Nino\Documents\Nino\Università\2-Magistrale\2-Industrial informatics\ProgettoOPCUA\ServerC\ServerC\Debug\ServerC.exe : fatal error LNK1120: 10 esterni non risolti
