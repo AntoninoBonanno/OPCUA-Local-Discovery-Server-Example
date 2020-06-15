@@ -1,6 +1,6 @@
 /* THIS IS A SINGLE-FILE DISTRIBUTION CONCATENATED FROM THE OPEN62541 SOURCES
  * visit http://open62541.org/ for information about this software
- * Git-Revision: v1.1
+ * Git-Revision: v1.1-rc1-23-g9a148561
  */
 
 /*
@@ -31,8 +31,8 @@
 #define UA_OPEN62541_VER_MAJOR 1
 #define UA_OPEN62541_VER_MINOR 1
 #define UA_OPEN62541_VER_PATCH 0
-#define UA_OPEN62541_VER_LABEL "" /* Release candidate label, etc. */
-#define UA_OPEN62541_VER_COMMIT "v1.1"
+#define UA_OPEN62541_VER_LABEL "-rc1-23-g9a148561" /* Release candidate label, etc. */
+#define UA_OPEN62541_VER_COMMIT "v1.1-rc1-23-g9a148561"
 
 /**
  * Feature Options
@@ -307,7 +307,6 @@ void UA_free(void* ptr); //de-allocate memory previously allocated with UA_mallo
 
 /* 3rd Argument is the string */
 #define UA_snprintf(source, size, ...) _snprintf_s(source, size, _TRUNCATE, __VA_ARGS__)
-#define UA_strncasecmp _strnicmp
 
 #define UA_LOG_SOCKET_ERRNO_WRAP(LOG) { \
     char *errno_str = NULL; \
@@ -489,7 +488,6 @@ extern void * (*UA_globalRealloc)(void *ptr, size_t size);
 
 #include <stdio.h>
 #define UA_snprintf snprintf
-#define UA_strncasecmp strncasecmp
 
 #define UA_LOG_SOCKET_ERRNO_WRAP(LOG) { \
     char *errno_str = strerror(errno); \
@@ -14102,7 +14100,7 @@ _UA_END_DECLS
 /*********************************** amalgamated original file "/home/travis/build/open62541/open62541/build/src_generated/open62541/types_generated.h" ***********************************/
 
 /* Generated from Opc.Ua.Types.bsd with script /home/travis/build/open62541/open62541/tools/generate_datatypes.py
- * on host travis-job-d214f9f8-b352-4508-9978-85b27759f967 by user travis at 2020-06-12 10:56:08 */
+ * on host travis-job-0c37c25a-44f8-4554-8da3-ef9ba0c0d79d by user travis at 2020-05-31 05:43:52 */
 
 
 #ifdef UA_ENABLE_AMALGAMATION
@@ -16909,7 +16907,7 @@ _UA_END_DECLS
 /*********************************** amalgamated original file "/home/travis/build/open62541/open62541/build/src_generated/open62541/types_generated_handling.h" ***********************************/
 
 /* Generated from Opc.Ua.Types.bsd with script /home/travis/build/open62541/open62541/tools/generate_datatypes.py
- * on host travis-job-d214f9f8-b352-4508-9978-85b27759f967 by user travis at 2020-06-12 10:56:08 */
+ * on host travis-job-0c37c25a-44f8-4554-8da3-ef9ba0c0d79d by user travis at 2020-05-31 05:43:52 */
 
 
 
@@ -24555,11 +24553,7 @@ typedef struct {
                                          const UA_NodeId *targetParentNodeId,
                                          const UA_NodeId *referenceTypeId,
                                          UA_NodeId *targetNodeId);
-} UA_GlobalNodeLifecycle;
-
-void UA_EXPORT
-UA_Server_setAdminSessionContext(UA_Server *server,
-                                 void *context);
+    } UA_GlobalNodeLifecycle;
 
 typedef struct {
     /* Can be NULL. May replace the nodeContext */
@@ -25285,17 +25279,6 @@ UA_Server_setConditionTwoStateVariableCallback(UA_Server *server, const UA_NodeI
                                                const UA_NodeId conditionSource, UA_Boolean removeBranch,
                                                UA_TwoStateVariableChangeCallback callback,
                                                UA_TwoStateVariableCallbackType callbackType);
-
-/**
- * Delete a condition from the address space and the internal lists.
- * 
- * @param server The server object
- * @param condition The NodeId of the node representation of the Condition Instance
- * @param conditionSource The NodeId of the node representation of the Condition Source
- * @return UA_STATUSCODE_GOOD on success
- */
-UA_StatusCode UA_EXPORT
-UA_Server_deleteCondition(UA_Server *server, const UA_NodeId condition, const UA_NodeId conditionSource);
 
 #endif//UA_ENABLE_SUBSCRIPTIONS_ALARMS_CONDITIONS
 
@@ -26481,6 +26464,10 @@ typedef struct {
     size_t connectionPropertiesSize;
     UA_KeyValuePair *connectionProperties;
     UA_Variant connectionTransportSettings;
+
+    /* This flag is 'read only' and is set internally based on the PubSub state. */
+    UA_Boolean configurationFrozen;
+
 #ifdef UA_ENABLE_PUBSUB_ETH_UADP_ETF
     /* ETF related connection configuration - Not in PubSub specfication */
     UA_ETFConfiguration etfConfiguration;
@@ -26553,6 +26540,8 @@ typedef struct {
         UA_PublishedEventConfig event;
         UA_PublishedEventTemplateConfig eventTemplate;
     } config;
+    /* This flag is 'read only' and is set internally based on the PubSub state. */
+    UA_Boolean configurationFrozen;
 } UA_PublishedDataSetConfig;
 
 void UA_EXPORT
@@ -26615,6 +26604,8 @@ typedef struct {
         /* events need other config later */
         UA_DataSetVariableConfig variable;
     } field;
+    /* This flag is 'read only' and is set internally based on the PubSub state. */
+    UA_Boolean configurationFrozen;
 } UA_DataSetFieldConfig;
 
 void UA_EXPORT
@@ -26707,6 +26698,8 @@ typedef struct {
     /* non std. config parameter. maximum count of embedded DataSetMessage in
      * one NetworkMessage */
     UA_UInt16 maxEncapsulatedDataSetMessageCount;
+    /* This flag is 'read only' and is set internally based on the PubSub state. */
+    UA_Boolean configurationFrozen;
     /* non std. field */
     UA_PubSubRTLevel rtLevel;
 } UA_WriterGroupConfig;
@@ -26765,6 +26758,8 @@ typedef struct {
     UA_String dataSetName;
     size_t dataSetWriterPropertiesSize;
     UA_KeyValuePair *dataSetWriterProperties;
+    /* This flag is 'read only' and is set internally based on the PubSub state. */
+    UA_Boolean configurationFrozen;
 } UA_DataSetWriterConfig;
 
 void UA_EXPORT
@@ -26816,7 +26811,7 @@ typedef struct {
     UA_DataSetFieldContentMask dataSetFieldContentMask;
     UA_Double messageReceiveTimeout;
     UA_PubSubSecurityParameters securityParameters;
-    UA_ExtensionObject messageSettings;
+    UA_UadpDataSetReaderMessageDataType messageSettings;
     UA_ExtensionObject transportSettings;
     UA_TargetVariablesDataType subscribedDataSetTarget;
 } UA_DataSetReaderConfig;
@@ -26853,8 +26848,6 @@ UA_Server_DataSetReader_createTargetVariables(UA_Server *server, UA_NodeId dataS
 typedef struct {
     UA_String name;
     UA_PubSubSecurityParameters securityParameters;
-    /* non std. field */
-    UA_PubSubRTLevel rtLevel;
 } UA_ReaderGroupConfig;
 
 /* Add DataSetReader to the ReaderGroup */
@@ -26887,18 +26880,6 @@ UA_Server_addReaderGroup(UA_Server *server, UA_NodeId connectionIdentifier,
 /* Remove ReaderGroup from connection */
 UA_StatusCode UA_EXPORT
 UA_Server_removeReaderGroup(UA_Server *server, UA_NodeId groupIdentifier);
-
-UA_StatusCode UA_EXPORT
-UA_Server_freezeReaderGroupConfiguration(UA_Server *server, const UA_NodeId readerGroupId);
-
-UA_StatusCode UA_EXPORT
-UA_Server_unfreezeReaderGroupConfiguration(UA_Server *server, const UA_NodeId readerGroupId);
-
-UA_StatusCode UA_EXPORT
-UA_Server_setReaderGroupOperational(UA_Server *server, const UA_NodeId readerGroupId);
-
-UA_StatusCode UA_EXPORT
-UA_Server_setReaderGroupDisabled(UA_Server *server, const UA_NodeId readerGroupId);
 
 #endif /* UA_ENABLE_PUBSUB */
 
@@ -28127,15 +28108,6 @@ struct UA_ServerConfig {
     /* Available endpoints */
     size_t endpointsSize;
     UA_EndpointDescription *endpoints;
-
-    /* Only allow the following discovery services to be executed on a
-     * SecureChannel with SecurityPolicyNone: GetEndpointsRequest,
-     * FindServersRequest and FindServersOnNetworkRequest.
-     *
-     * Only enable this option if there is no endpoint with SecurityPolicy#None
-     * in the endpoints list. The SecurityPolicy#None must be present in the
-     * securityPolicies list. */
-    UA_Boolean securityPolicyNoneDiscoveryOnly;
 
     /* Node Lifecycle callbacks */
     UA_GlobalNodeLifecycle nodeLifecycle;
@@ -31812,10 +31784,6 @@ void UA_deinitialize_architecture_network(void);//de-initializes the network int
  */
 #ifndef UA_snprintf
 int UA_snprintf(char* pa_stream, size_t pa_size, const char* pa_format, ...); //prints text to output
-#endif
-
-#ifndef UA_strncasecmp
-int UA_strncasecmp(const char* s1, const char* s2, size_t n);
 #endif
 
 /*
