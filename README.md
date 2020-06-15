@@ -21,6 +21,11 @@ We have created several servers, in different languages, that register with LDS.
 * For ServerCs: [UA-.NETStandard](https://github.com/OPCFoundation/UA-.NETStandard), [Dotnet](https://dotnet.microsoft.com/download)
 * For ServerC: [open62541](https://github.com/open62541/open62541/tree/master)
 
+We also tried
+* ServerPython: [python-opcua](https://github.com/FreeOpcUa/python-opcua) but (https://github.com/FreeOpcUa/python-opcua/issues/674)
+* Milo: [Eclipse Milo](https://github.com/eclipse/milo)
+
+
 ## Start project
 
 * LDS
@@ -50,7 +55,7 @@ We have created several servers, in different languages, that register with LDS.
     - Open ServerCs\ServerCs.sln on Visual Studio 
     - You can edit LDS default port inside Server\ServerCs.cs 
     
-* ServerCs 
+* ServerC 
 
     On linux
     
@@ -59,6 +64,17 @@ We have created several servers, in different languages, that register with LDS.
     `> gcc -std=c99 -UA_ENABLE_DISCOVERY ServerC.c open62541.c -o ServerC`
     
     `> ./ServerC`
+
+    On Windows
+
+    `> cd ServerC\Release`
+
+    `> ServerC.exe`
+
+    Or 
+
+    - Open ServerC\ServerC.sln on Visual Studio 
+    - You can edit LDS default port inside ServerC\ServerC.c
 
 * Client
 

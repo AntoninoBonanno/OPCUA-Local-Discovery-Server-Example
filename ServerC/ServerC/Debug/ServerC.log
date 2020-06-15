@@ -1,0 +1,19 @@
+﻿  ServerC.c
+     Creazione della libreria C:\Users\mario\Desktop\ProgettoII\ServerC\Debug\ServerC.lib e dell'oggetto C:\Users\mario\Desktop\ProgettoII\ServerC\Debug\ServerC.exp
+LINK : warning LNK4217: il simbolo '_UA_StatusCode_name' definito in 'open62541.obj' è stato importato da 'ServerC.obj' nella funzione '_main'
+LINK : warning LNK4217: il simbolo '_UA_String_fromChars' definito in 'open62541.obj' è stato importato da 'ServerC.obj' nella funzione '_UA_LOCALIZEDTEXT_ALLOC'
+LINK : warning LNK4217: il simbolo '_UA_Server_delete' definito in 'open62541.obj' è stato importato da 'ServerC.obj' nella funzione '_main'
+LINK : warning LNK4217: il simbolo '_UA_Server_getConfig' definito in 'open62541.obj' è stato importato da 'ServerC.obj' nella funzione '_main'
+LINK : warning LNK4217: il simbolo '_UA_Server_run' definito in 'open62541.obj' è stato importato da 'ServerC.obj' nella funzione '_main'
+LINK : warning LNK4217: il simbolo '_UA_Server_unregister_discovery' definito in 'open62541.obj' è stato importato da 'ServerC.obj' nella funzione '_main'
+LINK : warning LNK4217: il simbolo '_UA_Server_addPeriodicServerRegisterCallback' definito in 'open62541.obj' è stato importato da 'ServerC.obj' nella funzione '_main'
+LINK : warning LNK4217: il simbolo '_UA_Client_getConfig' definito in 'open62541.obj' è stato importato da 'ServerC.obj' nella funzione '_main'
+LINK : warning LNK4217: il simbolo '_UA_Client_delete' definito in 'open62541.obj' è stato importato da 'ServerC.obj' nella funzione '_main'
+LINK : warning LNK4217: il simbolo '_UA_Client_disconnect' definito in 'open62541.obj' è stato importato da 'ServerC.obj' nella funzione '_main'
+LINK : warning LNK4217: il simbolo '_UA_CertificateVerification_AcceptAll' definito in 'open62541.obj' è stato importato da 'ServerC.obj' nella funzione '_main'
+LINK : warning LNK4217: il simbolo '_UA_Server_new' definito in 'open62541.obj' è stato importato da 'ServerC.obj' nella funzione '_main'
+LINK : warning LNK4217: il simbolo '_UA_ServerConfig_setMinimalCustomBuffer' definito in 'open62541.obj' è stato importato da 'ServerC.obj' nella funzione '_UA_ServerConfig_setMinimal'
+LINK : warning LNK4217: il simbolo '_UA_Client_new' definito in 'open62541.obj' è stato importato da 'ServerC.obj' nella funzione '_main'
+LINK : warning LNK4217: il simbolo '_UA_ClientConfig_setDefault' definito in 'open62541.obj' è stato importato da 'ServerC.obj' nella funzione '_main'
+LINK : warning LNK4286: il simbolo '_UA_Log_Stdout' definito in 'open62541.obj' è stato importato da 'ServerC.obj'
+  ServerC.vcxproj -> C:\Users\mario\Desktop\ProgettoII\ServerC\Debug\ServerC.exe
