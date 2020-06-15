@@ -10,6 +10,7 @@ We have created several servers, in different languages, that register with LDS.
 * **LDS**: Local Discovery Server in Node.js
 * **ServerNode**: Server in Node.js
 * **ServerCs**: Server in C#
+* **ServerC**: Server in C 
 
 ![alt text](https://github.com/AntoninoBonanno/Simple-Node-OPCUA-Local-Discovery-Server/blob/master/LDS.png)
 
@@ -18,6 +19,7 @@ We have created several servers, in different languages, that register with LDS.
 * For LDS and ServerNode: [node-opcua](https://github.com/node-opcua/node-opcua/)
 * For Client: [UA-Java-Legacy](https://github.com/OPCFoundation/UA-Java-Legacy)
 * For ServerCs: [UA-.NETStandard](https://github.com/OPCFoundation/UA-.NETStandard), [Dotnet](https://dotnet.microsoft.com/download)
+* For ServerC: [open62541](https://github.com/open62541/open62541/tree/master)
 
 ## Start project
 
@@ -47,6 +49,16 @@ We have created several servers, in different languages, that register with LDS.
 
     - Open ServerCs\ServerCs.sln on Visual Studio 
     - You can edit LDS default port inside Server\ServerCs.cs 
+    
+* ServerCs 
+
+    On linux
+    
+    `> cd ServerC`
+
+    `> gcc -std=c99 -UA_ENABLE_DISCOVERY ServerC.c open62541.c -o ServerC`
+    
+    `> ./ServerC`
 
 * Client
 
