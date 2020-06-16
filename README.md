@@ -1,6 +1,6 @@
-# Simple Node-OPCUA Local Discovery Server
+# OPCUA-Local-Discovery-Server-Example
 
-It's a simple project that implements OPCUA LDS in node.js.
+It's a example project that implements OPCUA LDS in node.js.
 
 We have created a Java client that requests registered servers from LDS.
 
