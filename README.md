@@ -12,6 +12,11 @@ We have created several servers, in different languages, that register with LDS.
 * **ServerCs**: Server in C#
 * **ServerC**: Server in C 
 
+We also tried without success:
+
+* **ServerPython**: [python-opcua](https://github.com/FreeOpcUa/python-opcua) but [Issue 1](https://github.com/FreeOpcUa/python-opcua/issues/674) [Issue 2](https://github.com/FreeOpcUa/python-opcua/issues/941)
+* **ServerMilo**: [Eclipse Milo](https://github.com/eclipse/milo) 
+
 ![alt text](https://github.com/AntoninoBonanno/Simple-Node-OPCUA-Local-Discovery-Server/blob/master/LDS.png)
 
 ## Dependencies
@@ -20,10 +25,6 @@ We have created several servers, in different languages, that register with LDS.
 * For Client: [UA-Java-Legacy](https://github.com/OPCFoundation/UA-Java-Legacy)
 * For ServerCs: [UA-.NETStandard](https://github.com/OPCFoundation/UA-.NETStandard), [Dotnet](https://dotnet.microsoft.com/download)
 * For ServerC: [open62541](https://github.com/open62541/open62541/tree/master)
-
-We also tried
-* ServerPython: [python-opcua](https://github.com/FreeOpcUa/python-opcua) but (https://github.com/FreeOpcUa/python-opcua/issues/674)
-* Milo: [Eclipse Milo](https://github.com/eclipse/milo)
 
 
 ## Start project
