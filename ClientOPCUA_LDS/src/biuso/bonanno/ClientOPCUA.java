@@ -7,10 +7,13 @@ package biuso.bonanno;
 
 
 import biuso.bonanno.supportClass.KeysUtils;
+
+import java.util.HashMap;
 import java.util.Locale;
 
 import org.opcfoundation.ua.application.Client;
 import org.opcfoundation.ua.application.SessionChannel;
+import org.opcfoundation.ua.builtintypes.DataValue;
 import org.opcfoundation.ua.builtintypes.ExpandedNodeId;
 import org.opcfoundation.ua.builtintypes.LocalizedText;
 import org.opcfoundation.ua.builtintypes.NodeId;
@@ -49,6 +52,8 @@ class ClientOPCUA {
         final KeyPair pair = KeysUtils.getCert("OPCClient");
         myClient = Client.createClientApplication(pair);
         
+        myClient.setTimeout(0);
+        
         myClient.getApplication().addLocale(Locale.ENGLISH);
         myClient.getApplication().setApplicationName(new LocalizedText("Java Client", Locale.ENGLISH));
         myClient.getApplication().setProductUri("urn:JavaClient");
@@ -82,6 +87,7 @@ class ClientOPCUA {
         if(currentSession != null ) this.closeSession();
         
         currentSession = myClient.createSessionChannel(server_url, endpoint);
+        
         currentSession.activate();
         System.out.print("\n<-- CreateSessionChannel -->\nOPC UA JAVA Client: Connessione stabilita con " + server_url + "\n");
         
@@ -117,17 +123,90 @@ class ClientOPCUA {
     }
     
     
-    public String getVariable(ExpandedNodeId node) throws Exception {    
+    public HashMap<String, DataValue> getAttributes(ExpandedNodeId node) throws Exception {    
         if(currentSession == null) throw new Exception("Crea una sessione");
         
-        ReadResponse res = currentSession.Read(null, MaxAge, TimestampsToReturn.Source,
-                new ReadValueId(NodeId.get(node.getIdType(), node.getNamespaceIndex(), node.getValue()), Attributes.Value, null, null));
+        NodeId nodeId = NodeId.get(node.getIdType(), node.getNamespaceIndex(), node.getValue());        
+       
+        String[] nameNodesRead = {
+        	"NodeId",
+        	"NodeClass",
+        	"BrowseName",
+        	"DisplayName",
+        	"Description",        	
+        	"Value",
+        	"DataType",
+        	
+        	/*
+        	"WriteMask",
+        	"UserWriteMask",
+        	"AccessLevel",
+        	"IsAbstract",
+        	"Symmetric",
+        	"InverseName",        	
+        	"ContainsNoLoops",
+        	"EventNotifier",        	
+        	"ValueRank",
+        	"ArrayDimensions",        	
+        	
+        	"UserAccessLevel",
+        	"MinimumSamplingInterval",
+        	"Historizing",
+        	"Executable",
+        	"UserExecutable",
+        	"DataTypeDefinition",
+        	"RolePermissions",
+        	"UserRolePermissions",
+        	"AccessRestrictions",
+        	"AccessLevelEx"	*/
+        };
         
-        System.out.println("\n<-- GetVariable -->\nValore letto: " + res.getResults()[0].getValue());
-        System.out.println("Status letto: " + res.getResults()[0].getStatusCode());
-        System.out.println("Timestamp source letto: " + res.getResults()[0].getSourceTimestamp());
+        ReadValueId[] nodesToRead = {
+    		new ReadValueId(nodeId, Attributes.NodeId, null, null),
+    		new ReadValueId(nodeId, Attributes.NodeClass, null, null),
+    		new ReadValueId(nodeId, Attributes.BrowseName, null, null),
+    		new ReadValueId(nodeId, Attributes.DisplayName, null, null),
+    		new ReadValueId(nodeId, Attributes.Description, null, null),
+    		new ReadValueId(nodeId, Attributes.Value, null, null),
+    		new ReadValueId(nodeId, Attributes.DataType, null, null),
+    		
+    		
+    		/*
+    		new ReadValueId(nodeId, Attributes.WriteMask, null, null),
+    		new ReadValueId(nodeId, Attributes.UserWriteMask, null, null),
+    		new ReadValueId(nodeId, Attributes.AccessLevel, null, null),
+    		new ReadValueId(nodeId, Attributes.IsAbstract, null, null),
+    		new ReadValueId(nodeId, Attributes.Symmetric, null, null),
+    		new ReadValueId(nodeId, Attributes.InverseName, null, null),
+    		new ReadValueId(nodeId, Attributes.ContainsNoLoops, null, null),
+    		new ReadValueId(nodeId, Attributes.EventNotifier, null, null),    		
+    		new ReadValueId(nodeId, Attributes.ValueRank, null, null),
+    		new ReadValueId(nodeId, Attributes.ArrayDimensions, null, null),   	
+
+    		new ReadValueId(nodeId, Attributes.UserAccessLevel, null, null),
+    		new ReadValueId(nodeId, Attributes.MinimumSamplingInterval, null, null),
+    		new ReadValueId(nodeId, Attributes.Historizing, null, null),
+    		new ReadValueId(nodeId, Attributes.Executable, null, null),
+    		new ReadValueId(nodeId, Attributes.UserExecutable, null, null),
+    		new ReadValueId(nodeId, Attributes.DataTypeDefinition, null, null),
+    		new ReadValueId(nodeId, Attributes.RolePermissions, null, null),
+    		new ReadValueId(nodeId, Attributes.UserRolePermissions, null, null),
+    		new ReadValueId(nodeId, Attributes.AccessRestrictions, null, null),
+    		new ReadValueId(nodeId, Attributes.AccessLevelEx, null, null),  */		
+        };
         
-        return res.getResults()[0].getValue().toString();
+        ReadResponse res = currentSession.Read(null, MaxAge, TimestampsToReturn.Source, nodesToRead);
+        
+        System.out.println("\n<-- GetAttributes -->\n");
+       
+        DataValue[] resData = res.getResults();
+        HashMap<String, DataValue> results = new HashMap<String, DataValue>();
+        for(int i=0; i<resData.length; i++) {
+        	System.out.println(i +") Valore "+nameNodesRead[i]+": " + resData[i].getValue().toString());
+        	results.put(nameNodesRead[i], resData[i]);
+        }
+                
+        return results;
     }
     
 }

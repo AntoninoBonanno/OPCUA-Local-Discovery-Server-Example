@@ -17,7 +17,7 @@ We also tried without success:
 * **ServerPython**: [python-opcua](https://github.com/FreeOpcUa/python-opcua) but [Issue 1](https://github.com/FreeOpcUa/python-opcua/issues/674) [Issue 2](https://github.com/FreeOpcUa/python-opcua/issues/941)
 * **ServerMilo**: [Eclipse Milo](https://github.com/eclipse/milo) 
 
-![alt text](https://github.com/AntoninoBonanno/Simple-Node-OPCUA-Local-Discovery-Server/blob/master/LDS.png)
+![alt text](https://github.com/AntoninoBonanno/OPCUA-Local-Discovery-Server-Example/blob/master/LDS.png?raw=true)
 
 ## Dependencies
 

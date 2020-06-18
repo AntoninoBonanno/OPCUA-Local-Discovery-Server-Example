@@ -5,40 +5,25 @@
  */
 package biuso.bonanno.supportClass;
 
-import org.opcfoundation.ua.builtintypes.ExpandedNodeId;
-import org.opcfoundation.ua.core.NodeClass;
 import org.opcfoundation.ua.core.ReferenceDescription;
 
 /**
  *
  * @author Bonanno Antonino, Biuso Mario
  */
-public class TreeBrowseObject {
-    private final String displayName;
-    private final NodeClass nodeClass;
-    private final ExpandedNodeId nodeId;
-
-    public TreeBrowseObject(ReferenceDescription referenceDescription) {
-        this.displayName = referenceDescription.getDisplayName().getText();
-        this.nodeClass = referenceDescription.getNodeClass();
-        this.nodeId = referenceDescription.getNodeId();
+public class TreeBrowseObject extends ReferenceDescription{
+       
+    public TreeBrowseObject(ReferenceDescription rd) {        
+        super(rd.getReferenceTypeId(), rd.getIsForward(), rd.getNodeId(),rd.getBrowseName(), rd.getDisplayName(), rd.getNodeClass(), rd.getTypeDefinition());
     }
 
-    public String getDisplayName() {
-        return displayName;
-    }
-
-    public NodeClass getNodeClass() {
-        return nodeClass;
-    }
-
-    public ExpandedNodeId getNodeId() {
-        return nodeId;
+    public String getReferenceDescriptionString() {
+    	return super.toString();
     }
 
     @Override
     public String toString() {
-        return displayName;
+        return this.getDisplayName().getText();
     }
     
 }

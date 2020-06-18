@@ -7,6 +7,8 @@ package biuso.bonanno;
 
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.util.HashMap;
+
 import javax.swing.DefaultListModel;
 import javax.swing.JOptionPane;
 import javax.swing.event.TreeSelectionEvent;
@@ -14,16 +16,19 @@ import javax.swing.event.TreeSelectionListener;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
 
-import org.opcfoundation.ua.builtintypes.NodeId;
+import org.opcfoundation.ua.builtintypes.DataValue;
+import org.opcfoundation.ua.builtintypes.Variant;
 import org.opcfoundation.ua.common.ServiceResultException;
 import org.opcfoundation.ua.core.ApplicationDescription;
 import org.opcfoundation.ua.core.BrowseResult;
 import org.opcfoundation.ua.core.EndpointDescription;
-import org.opcfoundation.ua.core.NodeClass;
 import org.opcfoundation.ua.core.ReferenceDescription;
 
 import biuso.bonanno.supportClass.TreeBrowseObject;
 import biuso.bonanno.supportClass.TreeServerObject;
+import javax.swing.event.TreeExpansionEvent;
+import javax.swing.event.TreeWillExpandListener;
+import javax.swing.tree.ExpandVetoException;
 
 /**
  *
@@ -73,17 +78,53 @@ public class ClientGUI extends javax.swing.JFrame {
             }
         });
         
+        jTree_browse.addTreeWillExpandListener(new TreeWillExpandListener() {
+            @Override
+            public void treeWillExpand(TreeExpansionEvent event) throws ExpandVetoException {
+
+                DefaultMutableTreeNode node = (DefaultMutableTreeNode) event.getPath().getLastPathComponent();
+
+                if (node == null || node.isRoot()) return;
+                             
+                node.removeAllChildren();    
+                TreeBrowseObject nodeInfo = (TreeBrowseObject) node.getUserObject();               
+                try {      
+                	jLabel_log.setText("Browse in corso...");
+                	jLabel_log.paintImmediately(jLabel_log.getVisibleRect());
+                	
+                    BrowseResult[] rx = clientOpcua.getBrowse(nodeInfo.getNodeId());
+                    printObjectTree(rx, node);
+                    jLabel_log.setText("Seleziona una variabile per visualizzarne il valore...");
+                } catch (Exception e1) {
+                    JOptionPane.showMessageDialog(me, e1.getMessage(), "Errore", JOptionPane.ERROR_MESSAGE);
+                }                          
+            }
+
+            @Override
+            public void treeWillCollapse(TreeExpansionEvent event) throws ExpandVetoException {
+                //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+            }
+        });
+        
         jTree_browse.addTreeSelectionListener(new TreeSelectionListener() {
             @Override
             public void valueChanged(TreeSelectionEvent e) {
                 DefaultMutableTreeNode node = (DefaultMutableTreeNode) jTree_browse.getLastSelectedPathComponent();
 
-                if (node == null || node.isRoot() || !node.isLeaf()) return;
-
-                TreeBrowseObject nodeInfo = (TreeBrowseObject) node.getUserObject();
-                try {                    
-                    String value = clientOpcua.getVariable(nodeInfo.getNodeId());                       			
-                    jLabel_variable.setText(value);					
+                if(node == null || node.isRoot()) {
+                	addTableValues(null);
+                	return;
+                } 
+                
+                if(!node.isLeaf()) jTree_browse.expandPath(e.getPath());
+                TreeBrowseObject nodeInfo = (TreeBrowseObject) node.getUserObject();    
+                try {        
+                	jLabel_log.setText("Read in corso...");
+                	jLabel_log.paintImmediately(jLabel_log.getVisibleRect());
+                	HashMap<String, DataValue> values = clientOpcua.getAttributes(nodeInfo.getNodeId());
+                    addTableValues(values);
+                    
+                    jLabel_log.setText("Seleziona una variabile per visualizzarne il valore...");
                 } catch (Exception e1) {
                     JOptionPane.showMessageDialog(me, e1.getMessage(), "Errore", JOptionPane.ERROR_MESSAGE);
                 }            	
@@ -99,6 +140,7 @@ public class ClientGUI extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jRadioButton1 = new javax.swing.JRadioButton();
         jTextField_discoveryUrl = new javax.swing.JTextField();
         jButton_findServer = new javax.swing.JButton();
         jScrollPane2 = new javax.swing.JScrollPane();
@@ -110,8 +152,10 @@ public class ClientGUI extends javax.swing.JFrame {
         jLabel_log = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
         jTree_browse = new javax.swing.JTree();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel_variable = new javax.swing.JLabel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        jTree_attributes = new javax.swing.JTree();
+
+        jRadioButton1.setText("jRadioButton1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         setTitle("Client OPCUA - LDS");
@@ -125,7 +169,7 @@ public class ClientGUI extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.tree.DefaultMutableTreeNode treeNode1 = new javax.swing.tree.DefaultMutableTreeNode("Server");
+        javax.swing.tree.DefaultMutableTreeNode treeNode1 = new javax.swing.tree.DefaultMutableTreeNode("Servers");
         jTree_serverTree.setModel(new javax.swing.tree.DefaultTreeModel(treeNode1));
         jScrollPane2.setViewportView(jTree_serverTree);
 
@@ -137,7 +181,7 @@ public class ClientGUI extends javax.swing.JFrame {
             }
         });
 
-        jList_endpoint.setModel(new DefaultListModel());
+        jList_endpoint.setModel(new DefaultListModel<String>());
         jScrollPane1.setViewportView(jList_endpoint);
 
         jButton_newSession.setText("Crea sessione");
@@ -154,9 +198,11 @@ public class ClientGUI extends javax.swing.JFrame {
         jTree_browse.setModel(new javax.swing.tree.DefaultTreeModel(treeNode1));
         jScrollPane3.setViewportView(jTree_browse);
 
-        jLabel1.setText("Valore variabile:");
-
-        jLabel_variable.setText(" ");
+        treeNode1 = new javax.swing.tree.DefaultMutableTreeNode("root");        
+        jTree_attributes.setModel(new javax.swing.tree.DefaultTreeModel(treeNode1));
+        jTree_attributes.setRootVisible(false);
+        jTree_attributes.setShowsRootHandles(true);
+        jScrollPane4.setViewportView(jTree_attributes);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -167,27 +213,23 @@ public class ClientGUI extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel_log, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jTextField_discoveryUrl, javax.swing.GroupLayout.DEFAULT_SIZE, 731, Short.MAX_VALUE)
+                        .addComponent(jTextField_discoveryUrl, javax.swing.GroupLayout.DEFAULT_SIZE, 728, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jButton_findServer))
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                                 .addGap(284, 284, 284)
                                 .addComponent(jButton_selectServer))
-                            .addComponent(jScrollPane2))
+                            .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.LEADING))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(0, 0, Short.MAX_VALUE)
                                 .addComponent(jButton_newSession))
-                            .addComponent(jScrollPane1)))
-                    .addComponent(jScrollPane3)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel_variable, javax.swing.GroupLayout.PREFERRED_SIZE, 739, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                            .addComponent(jScrollPane1)
+                            .addComponent(jScrollPane4))))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -202,17 +244,15 @@ public class ClientGUI extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 257, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 221, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton_selectServer)
                     .addComponent(jButton_newSession))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 285, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel_variable))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 231, Short.MAX_VALUE)
+                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
@@ -249,7 +289,7 @@ public class ClientGUI extends javax.swing.JFrame {
             }
             model.reload();
             
-            jLabel_log.setText("Seleziona un server e scegli un endpoint...");
+            jLabel_log.setText("Seleziona un server...");
         } catch (ServiceResultException e) {
             JOptionPane.showMessageDialog(this, e.getMessage(), "Errore", JOptionPane.ERROR_MESSAGE);
         }
@@ -262,7 +302,7 @@ public class ClientGUI extends javax.swing.JFrame {
             return;
         }
         
-       reset(true);
+        reset(true);
         
         if(selRow.isLeaf()) selRow = (DefaultMutableTreeNode) selRow.getParent();
         TreeServerObject treeServer = (TreeServerObject) selRow.getUserObject();
@@ -309,16 +349,16 @@ public class ClientGUI extends javax.swing.JFrame {
         
         try {     
             clientOpcua.createSession(server_url, endpoint);
-            jLabel_log.setText("Sessione creata, browse in corso...");
-            jLabel_log.paintImmediately(jLabel_log.getVisibleRect());
-            
+            jLabel_log.setText("Sessione creata, Browse in corso...");
+        	jLabel_log.paintImmediately(jLabel_log.getVisibleRect());
+        	
             DefaultTreeModel model = (DefaultTreeModel) jTree_browse.getModel();
             DefaultMutableTreeNode root = (DefaultMutableTreeNode) model.getRoot();
             root.removeAllChildren();
             printObjectTree(clientOpcua.getBrowse(null), root);            
             model.reload();
             
-            jLabel_log.setText("Seleziona una variabile per visualizzarne il valore...");
+            jLabel_log.setText("Sessione creata, Seleziona una variabile per visualizzarne il valore...");
         } catch (ServiceResultException e) {
             JOptionPane.showMessageDialog(this, e.getMessage(), "Errore", JOptionPane.ERROR_MESSAGE);           
         } catch (Exception e) {
@@ -368,14 +408,15 @@ public class ClientGUI extends javax.swing.JFrame {
     private javax.swing.JButton jButton_findServer;
     private javax.swing.JButton jButton_newSession;
     private javax.swing.JButton jButton_selectServer;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel_log;
-    private javax.swing.JLabel jLabel_variable;
     private javax.swing.JList<String> jList_endpoint;
+    private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JTextField jTextField_discoveryUrl;
+    private javax.swing.JTree jTree_attributes;
     private javax.swing.JTree jTree_browse;
     private javax.swing.JTree jTree_serverTree;
     // End of variables declaration//GEN-END:variables
@@ -384,14 +425,40 @@ public class ClientGUI extends javax.swing.JFrame {
     private void printObjectTree(BrowseResult[] result, DefaultMutableTreeNode node) throws Exception{
         for(BrowseResult r : result){   
             for(ReferenceDescription ref : r.getReferences()){   
-                DefaultMutableTreeNode a = new DefaultMutableTreeNode(new TreeBrowseObject(ref));      
-                if(ref.getNodeClass() == NodeClass.Object) {
-	                BrowseResult[] rx = clientOpcua.getBrowse(ref.getNodeId());
-	                printObjectTree(rx, a);
-                }               
-                node.add(a);                
+                DefaultMutableTreeNode a = new DefaultMutableTreeNode(new TreeBrowseObject(ref));  
+                a.add(new DefaultMutableTreeNode());  
+                node.add(a);               
+                System.out.println(ref);
             }                
         }
+    }
+    
+    private void addTableValues(HashMap<String, DataValue> values){
+               
+        DefaultTreeModel model = (DefaultTreeModel) jTree_attributes.getModel();
+        DefaultMutableTreeNode root = (DefaultMutableTreeNode) model.getRoot();
+        root.removeAllChildren();  
+        
+        if(values == null) {
+        	model.reload();     
+        	return;
+        }
+
+        for(String key : values.keySet()) {
+        	 DataValue val = values.get(key);
+             Variant value = val.getValue();
+             
+             if (value.isEmpty()) continue; 
+             
+             DefaultMutableTreeNode a = new DefaultMutableTreeNode(key);
+     		if(value.isArray()) {     
+     			Object[] myObject = (Object[])value.getValue();
+     			for(Object object : myObject) a.add(new DefaultMutableTreeNode(object.toString()));        			
+     		}
+     		else a.add(new DefaultMutableTreeNode(value.toString()));   
+            root.add(a);       
+        }
+        model.reload();     
     }
     
     private void reset(boolean onlyTree) {
@@ -400,7 +467,6 @@ public class ClientGUI extends javax.swing.JFrame {
         DefaultMutableTreeNode rootT = (DefaultMutableTreeNode) modelT.getRoot();
         rootT.removeAllChildren();
         modelT.reload();
-        jLabel_variable.setText(null);
         
         if(onlyTree) return;
     	endpoints = null;
