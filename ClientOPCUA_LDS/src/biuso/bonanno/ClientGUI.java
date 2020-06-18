@@ -28,6 +28,7 @@ import biuso.bonanno.supportClass.TreeBrowseObject;
 import biuso.bonanno.supportClass.TreeServerObject;
 import javax.swing.event.TreeExpansionEvent;
 import javax.swing.event.TreeWillExpandListener;
+import javax.swing.table.DefaultTableModel;
 import javax.swing.tree.ExpandVetoException;
 
 /**
@@ -89,8 +90,8 @@ public class ClientGUI extends javax.swing.JFrame {
                 node.removeAllChildren();    
                 TreeBrowseObject nodeInfo = (TreeBrowseObject) node.getUserObject();               
                 try {      
-                	jLabel_log.setText("Browse in corso...");
-                	jLabel_log.paintImmediately(jLabel_log.getVisibleRect());
+                    jLabel_log.setText("Browse in corso...");
+                    jLabel_log.paintImmediately(jLabel_log.getVisibleRect());
                 	
                     BrowseResult[] rx = clientOpcua.getBrowse(nodeInfo.getNodeId());
                     printObjectTree(rx, node);
@@ -110,19 +111,20 @@ public class ClientGUI extends javax.swing.JFrame {
             @Override
             public void valueChanged(TreeSelectionEvent e) {
                 DefaultMutableTreeNode node = (DefaultMutableTreeNode) jTree_browse.getLastSelectedPathComponent();
-
+                
+                TreeBrowseObject nodeInfo = (TreeBrowseObject) node.getUserObject();
                 if(node == null || node.isRoot()) {
-                	addTableValues(null);
-                	return;
+                    addTableValues(null, nodeInfo);
+                    return;
                 } 
                 
                 if(!node.isLeaf()) jTree_browse.expandPath(e.getPath());
-                TreeBrowseObject nodeInfo = (TreeBrowseObject) node.getUserObject();    
+                    
                 try {        
-                	jLabel_log.setText("Read in corso...");
-                	jLabel_log.paintImmediately(jLabel_log.getVisibleRect());
-                	HashMap<String, DataValue> values = clientOpcua.getAttributes(nodeInfo.getNodeId());
-                    addTableValues(values);
+                    jLabel_log.setText("Read in corso...");
+                    jLabel_log.paintImmediately(jLabel_log.getVisibleRect());
+                    HashMap<String, DataValue> values = clientOpcua.getAttributes(nodeInfo.getNodeId());
+                    addTableValues(values, nodeInfo);
                     
                     jLabel_log.setText("Seleziona una variabile per visualizzarne il valore...");
                 } catch (Exception e1) {
@@ -152,8 +154,12 @@ public class ClientGUI extends javax.swing.JFrame {
         jLabel_log = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
         jTree_browse = new javax.swing.JTree();
-        jScrollPane4 = new javax.swing.JScrollPane();
-        jTree_attributes = new javax.swing.JTree();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        jTable_attributes = new javax.swing.JTable();
 
         jRadioButton1.setText("jRadioButton1");
 
@@ -181,7 +187,7 @@ public class ClientGUI extends javax.swing.JFrame {
             }
         });
 
-        jList_endpoint.setModel(new DefaultListModel<String>());
+        jList_endpoint.setModel(new DefaultListModel());
         jScrollPane1.setViewportView(jList_endpoint);
 
         jButton_newSession.setText("Crea sessione");
@@ -198,11 +204,41 @@ public class ClientGUI extends javax.swing.JFrame {
         jTree_browse.setModel(new javax.swing.tree.DefaultTreeModel(treeNode1));
         jScrollPane3.setViewportView(jTree_browse);
 
-        treeNode1 = new javax.swing.tree.DefaultMutableTreeNode("root");        
-        jTree_attributes.setModel(new javax.swing.tree.DefaultTreeModel(treeNode1));
-        jTree_attributes.setRootVisible(false);
-        jTree_attributes.setShowsRootHandles(true);
-        jScrollPane4.setViewportView(jTree_attributes);
+        jLabel1.setText("Server registrati sul LDS");
+
+        jLabel2.setText("Endpoint disponibili per il server selezionato");
+
+        jLabel3.setText("Nodi disponibili sul server");
+
+        jLabel4.setText("Attributi del nodo selezionato");
+
+        jTable_attributes.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Nome attributo", "Valore"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.String.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane5.setViewportView(jTable_attributes);
+        if (jTable_attributes.getColumnModel().getColumnCount() > 0) {
+            jTable_attributes.getColumnModel().getColumn(0).setPreferredWidth(100);
+        }
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -213,23 +249,31 @@ public class ClientGUI extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel_log, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jTextField_discoveryUrl, javax.swing.GroupLayout.DEFAULT_SIZE, 728, Short.MAX_VALUE)
+                        .addComponent(jTextField_discoveryUrl)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jButton_findServer))
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                .addGap(284, 284, 284)
-                                .addComponent(jButton_selectServer))
-                            .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.LEADING))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                    .addGap(284, 284, 284)
+                                    .addComponent(jButton_selectServer))
+                                .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.LEADING))
+                            .addComponent(jLabel1)
+                            .addComponent(jLabel3))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(0, 0, Short.MAX_VALUE)
                                 .addComponent(jButton_newSession))
-                            .addComponent(jScrollPane1)
-                            .addComponent(jScrollPane4))))
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel4)
+                                    .addComponent(jLabel2))
+                                .addGap(0, 0, Short.MAX_VALUE))
+                            .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 431, Short.MAX_VALUE))))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -241,7 +285,11 @@ public class ClientGUI extends javax.swing.JFrame {
                     .addComponent(jTextField_discoveryUrl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel_log)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel2))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 221, Short.MAX_VALUE))
@@ -250,9 +298,13 @@ public class ClientGUI extends javax.swing.JFrame {
                     .addComponent(jButton_selectServer)
                     .addComponent(jButton_newSession))
                 .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel3)
+                    .addComponent(jLabel4))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 231, Short.MAX_VALUE)
-                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                    .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 210, Short.MAX_VALUE)
+                    .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
@@ -315,7 +367,7 @@ public class ClientGUI extends javax.swing.JFrame {
             DefaultListModel<String> model = (DefaultListModel<String>) jList_endpoint.getModel();
             model.clear();
             for (EndpointDescription endpoint : endpoints){      
-            	String secPoly = endpoint.getSecurityPolicyUri().substring(endpoint.getSecurityPolicyUri().indexOf('#')+1);
+                String secPoly = endpoint.getSecurityPolicyUri().substring(endpoint.getSecurityPolicyUri().indexOf('#')+1);
                 model.addElement(endpoint.getEndpointUrl() + " - " + endpoint.getSecurityMode() + " - "+ secPoly + " - "+ endpoint.getSecurityLevel());
                                 
                 System.out.println("\n<-- EndpointInfo -->");
@@ -408,15 +460,19 @@ public class ClientGUI extends javax.swing.JFrame {
     private javax.swing.JButton jButton_findServer;
     private javax.swing.JButton jButton_newSession;
     private javax.swing.JButton jButton_selectServer;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel_log;
     private javax.swing.JList<String> jList_endpoint;
     private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JTable jTable_attributes;
     private javax.swing.JTextField jTextField_discoveryUrl;
-    private javax.swing.JTree jTree_attributes;
     private javax.swing.JTree jTree_browse;
     private javax.swing.JTree jTree_serverTree;
     // End of variables declaration//GEN-END:variables
@@ -433,32 +489,26 @@ public class ClientGUI extends javax.swing.JFrame {
         }
     }
     
-    private void addTableValues(HashMap<String, DataValue> values){
+    private void addTableValues(HashMap<String, DataValue> values, TreeBrowseObject nodeInfo){        
+        DefaultTableModel table = (DefaultTableModel) jTable_attributes.getModel();         
+        table.setRowCount(0);
                
-        DefaultTreeModel model = (DefaultTreeModel) jTree_attributes.getModel();
-        DefaultMutableTreeNode root = (DefaultMutableTreeNode) model.getRoot();
-        root.removeAllChildren();  
+        Object[] row1 = { "ReferenceTypeId", nodeInfo.getReferenceTypeId()};        
+        table.addRow(row1); 
         
-        if(values == null) {
-        	model.reload();     
-        	return;
-        }
-
+        Object[] row = { "NodeClassString", nodeInfo.getNodeClass()};        
+        table.addRow(row); 
+        if(values == null) return;
+        
         for(String key : values.keySet()) {
-        	 DataValue val = values.get(key);
-             Variant value = val.getValue();
+            DataValue val = values.get(key);
+            Variant value = val.getValue();
              
-             if (value.isEmpty()) continue; 
-             
-             DefaultMutableTreeNode a = new DefaultMutableTreeNode(key);
-     		if(value.isArray()) {     
-     			Object[] myObject = (Object[])value.getValue();
-     			for(Object object : myObject) a.add(new DefaultMutableTreeNode(object.toString()));        			
-     		}
-     		else a.add(new DefaultMutableTreeNode(value.toString()));   
-            root.add(a);       
-        }
-        model.reload();     
+            if (value.isEmpty()) continue; 
+            
+            Object[] row2 = { key, value.toString()};        
+            table.addRow(row2);       
+        }  
     }
     
     private void reset(boolean onlyTree) {

@@ -81,7 +81,7 @@ We also tried without success:
 
     `> cd ClientOPCUA_LDS`
 
-    `> java -jar ClientForLDS.jar` (Run as administrator)
+    `> java -jar ClientForLDS.jar`
 
     Or
 

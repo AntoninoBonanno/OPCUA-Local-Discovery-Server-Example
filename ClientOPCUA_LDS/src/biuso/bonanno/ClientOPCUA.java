@@ -46,7 +46,7 @@ class ClientOPCUA {
     private final Client myClient;
     private SessionChannel currentSession = null;
     @SuppressWarnings("deprecation")
-	private static Double MaxAge = new Double(500);
+    private static Double MaxAge = new Double(500);
     
     public ClientOPCUA() throws ServiceResultException {
         final KeyPair pair = KeysUtils.getCert("OPCClient");
@@ -74,7 +74,7 @@ class ClientOPCUA {
     
     public EndpointDescription[] discoverEndpoints(String server_url) throws ServiceResultException {
         if(currentSession != null) this.closeSession();
-        // nota: discoverEndpoints e' l'API per il servizio GetEndpoints
+        
         EndpointDescription[] endpoints = myClient.discoverEndpoints(server_url);
 
         System.out.println("\n<-- DiscoverEndpoints -->\nHo contattato il Server: " + server_url);
@@ -116,10 +116,10 @@ class ClientOPCUA {
         browse.setBrowseDirection(BrowseDirection.Forward);
         browse.setIncludeSubtypes(true);
         browse.setNodeClassMask(NodeClass.Object, NodeClass.Variable);
-		browse.setResultMask(BrowseResultMask.All);
-		BrowseResponse res = currentSession.Browse(null, null, null, browse);
-	
-		return res.getResults();        
+        browse.setResultMask(BrowseResultMask.All);
+        BrowseResponse res = currentSession.Browse(null, null, null, browse);
+
+        return res.getResults();        
     }
     
     
@@ -129,70 +129,70 @@ class ClientOPCUA {
         NodeId nodeId = NodeId.get(node.getIdType(), node.getNamespaceIndex(), node.getValue());        
        
         String[] nameNodesRead = {
-        	"NodeId",
-        	"NodeClass",
-        	"BrowseName",
-        	"DisplayName",
-        	"Description",        	
-        	"Value",
-        	"DataType",
-        	
-        	/*
-        	"WriteMask",
-        	"UserWriteMask",
-        	"AccessLevel",
-        	"IsAbstract",
-        	"Symmetric",
-        	"InverseName",        	
-        	"ContainsNoLoops",
-        	"EventNotifier",        	
-        	"ValueRank",
-        	"ArrayDimensions",        	
-        	
-        	"UserAccessLevel",
-        	"MinimumSamplingInterval",
-        	"Historizing",
-        	"Executable",
-        	"UserExecutable",
-        	"DataTypeDefinition",
-        	"RolePermissions",
-        	"UserRolePermissions",
-        	"AccessRestrictions",
-        	"AccessLevelEx"	*/
+            "NodeId",
+            "NodeClass",
+            "BrowseName",
+            "DisplayName",
+            "Description",        	
+            "Value",
+            "DataType",
+
+            /*
+            "WriteMask",
+            "UserWriteMask",
+            "AccessLevel",
+            "IsAbstract",
+            "Symmetric",
+            "InverseName",        	
+            "ContainsNoLoops",
+            "EventNotifier",        	
+            "ValueRank",
+            "ArrayDimensions",        	
+
+            "UserAccessLevel",
+            "MinimumSamplingInterval",
+            "Historizing",
+            "Executable",
+            "UserExecutable",
+            "DataTypeDefinition",
+            "RolePermissions",
+            "UserRolePermissions",
+            "AccessRestrictions",
+            "AccessLevelEx"	*/
         };
         
         ReadValueId[] nodesToRead = {
-    		new ReadValueId(nodeId, Attributes.NodeId, null, null),
-    		new ReadValueId(nodeId, Attributes.NodeClass, null, null),
-    		new ReadValueId(nodeId, Attributes.BrowseName, null, null),
-    		new ReadValueId(nodeId, Attributes.DisplayName, null, null),
-    		new ReadValueId(nodeId, Attributes.Description, null, null),
-    		new ReadValueId(nodeId, Attributes.Value, null, null),
-    		new ReadValueId(nodeId, Attributes.DataType, null, null),
-    		
-    		
-    		/*
-    		new ReadValueId(nodeId, Attributes.WriteMask, null, null),
-    		new ReadValueId(nodeId, Attributes.UserWriteMask, null, null),
-    		new ReadValueId(nodeId, Attributes.AccessLevel, null, null),
-    		new ReadValueId(nodeId, Attributes.IsAbstract, null, null),
-    		new ReadValueId(nodeId, Attributes.Symmetric, null, null),
-    		new ReadValueId(nodeId, Attributes.InverseName, null, null),
-    		new ReadValueId(nodeId, Attributes.ContainsNoLoops, null, null),
-    		new ReadValueId(nodeId, Attributes.EventNotifier, null, null),    		
-    		new ReadValueId(nodeId, Attributes.ValueRank, null, null),
-    		new ReadValueId(nodeId, Attributes.ArrayDimensions, null, null),   	
+            new ReadValueId(nodeId, Attributes.NodeId, null, null),
+            new ReadValueId(nodeId, Attributes.NodeClass, null, null),
+            new ReadValueId(nodeId, Attributes.BrowseName, null, null),
+            new ReadValueId(nodeId, Attributes.DisplayName, null, null),
+            new ReadValueId(nodeId, Attributes.Description, null, null),
+            new ReadValueId(nodeId, Attributes.Value, null, null),
+            new ReadValueId(nodeId, Attributes.DataType, null, null),
 
-    		new ReadValueId(nodeId, Attributes.UserAccessLevel, null, null),
-    		new ReadValueId(nodeId, Attributes.MinimumSamplingInterval, null, null),
-    		new ReadValueId(nodeId, Attributes.Historizing, null, null),
-    		new ReadValueId(nodeId, Attributes.Executable, null, null),
-    		new ReadValueId(nodeId, Attributes.UserExecutable, null, null),
-    		new ReadValueId(nodeId, Attributes.DataTypeDefinition, null, null),
-    		new ReadValueId(nodeId, Attributes.RolePermissions, null, null),
-    		new ReadValueId(nodeId, Attributes.UserRolePermissions, null, null),
-    		new ReadValueId(nodeId, Attributes.AccessRestrictions, null, null),
-    		new ReadValueId(nodeId, Attributes.AccessLevelEx, null, null),  */		
+
+            /*
+            new ReadValueId(nodeId, Attributes.WriteMask, null, null),
+            new ReadValueId(nodeId, Attributes.UserWriteMask, null, null),
+            new ReadValueId(nodeId, Attributes.AccessLevel, null, null),
+            new ReadValueId(nodeId, Attributes.IsAbstract, null, null),
+            new ReadValueId(nodeId, Attributes.Symmetric, null, null),
+            new ReadValueId(nodeId, Attributes.InverseName, null, null),
+            new ReadValueId(nodeId, Attributes.ContainsNoLoops, null, null),
+            new ReadValueId(nodeId, Attributes.EventNotifier, null, null),    		
+            new ReadValueId(nodeId, Attributes.ValueRank, null, null),
+            new ReadValueId(nodeId, Attributes.ArrayDimensions, null, null),   	
+
+            new ReadValueId(nodeId, Attributes.UserAccessLevel, null, null),
+            new ReadValueId(nodeId, Attributes.MinimumSamplingInterval, null, null),
+            new ReadValueId(nodeId, Attributes.Historizing, null, null),
+            new ReadValueId(nodeId, Attributes.Executable, null, null),
+            new ReadValueId(nodeId, Attributes.UserExecutable, null, null),
+            new ReadValueId(nodeId, Attributes.DataTypeDefinition, null, null),
+            new ReadValueId(nodeId, Attributes.RolePermissions, null, null),
+            new ReadValueId(nodeId, Attributes.UserRolePermissions, null, null),
+            new ReadValueId(nodeId, Attributes.AccessRestrictions, null, null),
+            new ReadValueId(nodeId, Attributes.AccessLevelEx, null, null),  */		
         };
         
         ReadResponse res = currentSession.Read(null, MaxAge, TimestampsToReturn.Source, nodesToRead);
@@ -202,8 +202,8 @@ class ClientOPCUA {
         DataValue[] resData = res.getResults();
         HashMap<String, DataValue> results = new HashMap<String, DataValue>();
         for(int i=0; i<resData.length; i++) {
-        	System.out.println(i +") Valore "+nameNodesRead[i]+": " + resData[i].getValue().toString());
-        	results.put(nameNodesRead[i], resData[i]);
+            System.out.println(i +") Valore "+nameNodesRead[i]+": " + resData[i].getValue().toString());
+            results.put(nameNodesRead[i], resData[i]);
         }
                 
         return results;
