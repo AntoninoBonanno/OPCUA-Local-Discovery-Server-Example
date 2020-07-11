@@ -53,7 +53,7 @@ We also tried without success:
     
     Or 
 
-    - Open ServerCs\ServerCs.sln on Visual Studio 
+    - Open ServerCs\ServerCs.sln on Visual Studio (Require [.NET Framework 4.6.2 Developer Pack](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net462-developer-pack-offline-installer))
     - You can edit LDS default port inside Server\ServerCs.cs 
     
 * ServerC 
